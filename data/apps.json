@@ -61,9 +61,44 @@
         "developer": "BananaGlue GmbH",
         "rating": 4.7,
         "rating_count": 738,
-        "version": "4.1",
-        "version_updated": "2026-07-22",
+        "version": "4.1.1",
+        "version_updated": "2026-08-08",
         "released": "2009-04-10",
+        "size_mb": 75.6,
+        "min_ios": "15.0",
+        "ipad": true
+      }
+    },
+    "ip-scanner": {
+      "display_name": "IP Scanner",
+      "data_app": "IP Scanner",
+      "developer_display": "Matia Labs",
+      "track_id": 6443819966,
+      "price_display": "Free to download; a Pro unlock is available as an in-app purchase, price not stated on the listing",
+      "auto": {
+        "developer": "MATIA LABS, INC.",
+        "rating": 4.64,
+        "rating_count": 889,
+        "version": "6.33",
+        "version_updated": "2026-07-25",
+        "released": "2022-10-21",
+        "size_mb": 16.8,
+        "min_ios": "26",
+        "ipad": true
+      }
+    },
+    "inet": {
+      "display_name": "iNet",
+      "data_app": "iNet",
+      "track_id": 340793353,
+      "price_display": "Free to download; further features unlock via in-app purchase, price not stated on the listing",
+      "auto": {
+        "developer": "BananaGlue GmbH",
+        "rating": 4.54,
+        "rating_count": 2538,
+        "version": "4.1.1",
+        "version_updated": "2026-08-08",
+        "released": "2010-01-07",
         "size_mb": 75.7,
         "min_ios": "15.0",
         "ipad": true
@@ -82,6 +117,10 @@
     "fing-vs-network-analyzer-pro.html": [
       "fing",
       "network-analyzer-pro"
+    ],
+    "ip-scanner-vs-inet.html": [
+      "ip-scanner",
+      "inet"
     ]
   }
 }

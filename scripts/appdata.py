@@ -138,7 +138,7 @@ def render(d, page):
         return f(a, aa), f(b, ba)
 
     values = [
-        ("Developer", *pair(lambda app, x: esc(x["developer"]))),
+        ("Developer", *pair(lambda app, x: esc(app.get("developer_display") or x["developer"]))),
         ("Price", *pair(lambda app, x: esc(app["price_display"]))),
         ("App Store rating", *pair(lambda app, x: f'{x["rating"]:.2f} from {x["rating_count"]:,} ratings')),
         ("Current version", *pair(lambda app, x: f'{esc(x["version"])}, updated {x["version_updated"]}')),
