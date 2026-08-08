@@ -29,10 +29,10 @@
 
 <main class="err">
   <div class="wrap">
-    <p class="code">Error 404</p>
-    <h1>That page does not exist.</h1>
-    <p class="msg">If you followed a link here, it points to a page that is not on this site.</p>
-    <p class="back"><a href="/">&larr; Back to the front page</a></p>
+    <p class="code rise" style="--d:.05s">Error 404</p>
+    <h1 class="rise" style="--d:.15s">That page does not exist.</h1>
+    <p class="msg rise" style="--d:.25s">If you followed a link here, it points to a page that is not on this site.</p>
+    <p class="back rise" style="--d:.35s"><a href="/">&larr; Back to the front page</a></p>
   </div>
 </main>
 
@@ -43,5 +43,21 @@
   </div>
 </footer>
 
+<script>
+document.documentElement.classList.add('js');
+(function(){
+  var els = document.querySelectorAll('.rise');
+  if (!('IntersectionObserver' in window)) {
+    els.forEach(function(e){ e.classList.add('in'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  }, { rootMargin: '0px 0px -10% 0px' });
+  els.forEach(function(e){ io.observe(e); });
+})();
+</script>
 </body>
 </html>
