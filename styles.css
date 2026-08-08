@@ -69,25 +69,6 @@ strong { font-weight: 600; color: var(--ink); }
 
 .mark .slash { color: var(--accent); padding: 0 1px; }
 
-.chip {
-  margin: 0;
-  font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--muted);
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.dot {
-  width: 6px;
-  height: 6px;
-  background: var(--accent);
-  flex: 0 0 auto;
-}
-
 /* ---------- hero ---------- */
 
 .hero { padding: 48px 0 44px; }
@@ -142,77 +123,7 @@ h1 {
   color: var(--accent);
 }
 
-.fig-sec, .diff, .comparisons, .disc { border-top: 1px solid var(--rule); padding: 40px 0; }
-
-/* ---------- comparison schematic ---------- */
-
-.fig {
-  border: 1px solid var(--rule);
-  background: var(--panel);
-  padding: 20px;
-}
-
-.fig-grid { display: block; }
-
-.fig-col { padding: 4px 0; }
-
-.fig-tag {
-  margin: 0 0 12px;
-  font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
-.fig-lines i {
-  display: block;
-  height: 6px;
-  background: var(--rule);
-  margin-bottom: 8px;
-}
-
-.fig-lines i:nth-child(2) { width: 82%; }
-.fig-lines i:nth-child(3) { width: 91%; }
-.fig-lines i:nth-child(4) { width: 64%; }
-
-.fig-vs {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: 18px 0;
-  font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 0.18em;
-  color: var(--accent);
-}
-
-.fig-vs::before, .fig-vs::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: var(--rule);
-}
-
-.fig-verdict {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-top: 22px;
-  padding-top: 18px;
-  border-top: 1px solid var(--rule);
-}
-
-.fig-vtag {
-  font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--accent);
-  flex: 0 0 auto;
-}
-
-.fig-vline { flex: 1; height: 6px; background: var(--accent); opacity: 0.35; }
+.diff, .comparisons, .disc { border-top: 1px solid var(--rule); padding: 40px 0; }
 
 .caption {
   margin: 14px 0 0;
@@ -317,32 +228,7 @@ h1 {
 
   .lede { font-size: 19px; }
 
-  .fig-sec, .diff, .comparisons, .disc { padding: 64px 0; }
-
-  .fig { padding: 32px; }
-
-  .fig-grid {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: start;
-    gap: 0;
-  }
-
-  .fig-col:first-child { padding-right: 32px; }
-  .fig-col:last-child  { padding-left: 32px; }
-
-  .fig-vs {
-    flex-direction: column;
-    margin: 0;
-    align-self: stretch;
-    gap: 14px;
-  }
-
-  .fig-vs::before, .fig-vs::after {
-    width: 1px;
-    height: auto;
-    align-self: center;
-  }
+  .diff, .comparisons, .disc { padding: 64px 0; }
 
   .row {
     display: grid;
@@ -374,16 +260,6 @@ h1 {
 .cmp-sec {
   border-top: 1px solid var(--rule);
   padding: 40px 0;
-}
-
-/* app subheading inside the "Where each one fits" section */
-.sub {
-  margin: 28px 0 10px;
-  font-family: var(--mono);
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: var(--ink);
 }
 
 .cmp-sec p { max-width: 66ch; color: var(--muted); }
@@ -461,7 +337,6 @@ h1 {
   .cmp-hero { padding: 76px 0 56px; }
   .cmp-hero h1 { font-size: 36px; }
   .cmp-sec { padding: 56px 0; }
-  .sub { margin: 32px 0 10px; }
 
   .spec { table-layout: fixed; }
   .spec thead { display: table-header-group; }
@@ -506,3 +381,154 @@ h1 {
 .list li { margin: 0 0 10px; padding-left: 4px; }
 .list li:last-child { margin-bottom: 0; }
 .list li::marker { color: var(--accent); }
+
+/* ============================================================
+   HOMEPAGE HERO GRAPHIC
+   ============================================================ */
+
+.hero-art { margin-top: 40px; }
+
+.sweep {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ============================================================
+   COMPARISON PAGE — metadata strip, summary cards, pull-quote
+   ============================================================ */
+
+/* visually hidden, but kept in the accessibility tree */
+.vh {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.card {
+  border: 1px solid var(--rule);
+  border-left: 2px solid var(--accent);
+  border-radius: 0;
+  padding: 14px;
+}
+
+.card h2 {
+  margin: 0 0 8px;
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+}
+
+.card p { margin: 0 0 6px; font-size: 14.5px; line-height: 1.5; color: var(--muted); }
+.card p:last-child { margin-bottom: 0; }
+.card .card-lead { color: var(--ink); }
+
+.pull {
+  margin: 28px 0 0;
+  padding: 0 0 0 15px;
+  border-left: 2px solid var(--accent);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.55;
+  color: var(--ink);
+  max-width: 60ch;
+}
+
+/* ---------- rows where the two apps meaningfully differ ---------- */
+/* Scoped to the table that actually contains .differs rows, so the
+   At a glance table is untouched. Weight, not colour alone, carries
+   the distinction: 3px vs 1px, with padding kept equal at 12px. */
+
+.spec tbody:has(.differs) th[scope="row"] {
+  border-left: 1px solid var(--rule-soft);
+  padding-left: 11px;
+}
+
+.spec tbody tr.differs th[scope="row"] {
+  border-left: 3px solid var(--accent);
+  padding-left: 9px;
+}
+
+@media (min-width: 720px) {
+  /* two-column hero: copy | graphic */
+  .hero .wrap {
+    display: grid;
+    grid-template-columns: 1fr 0.85fr;
+    gap: 28px;
+    align-items: center;
+  }
+
+  /* the grid centres the graphic against the copy, so the stacked
+     top margin is not wanted here */
+  .hero-art { margin-top: 0; }
+
+  .cards { grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 32px; }
+
+  .card { padding: 16px 18px; }
+
+  /* border-collapse splits a collapsed border across the cell edge, so a
+     3px rule sits 1px further in than a 1px one. Compensate so the label
+     text starts at the same x on marked and unmarked rows. */
+  .spec tbody tr.differs th[scope="row"] { padding-left: 10px; }
+}
+
+/* ============================================================
+   ENTRANCE MOTION
+   Resting state is fully visible. The hidden state applies only
+   under .js on <html>, which the inline script adds — so with
+   JavaScript off, everything renders normally.
+   ============================================================ */
+
+.js .rise { opacity: 0; transform: translateY(10px); }
+
+.js .rise.in {
+  opacity: 1;
+  transform: none;
+  transition: opacity .7s ease-out, transform .7s ease-out;
+  transition-delay: var(--d, 0s);
+}
+
+/* ---------- homepage sweep graphic ---------- */
+
+.sweep path {
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+  animation: sweepDraw 1.5s ease-out forwards;
+}
+
+.sweep .base {
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  animation: none;
+}
+
+@keyframes sweepDraw { to { stroke-dashoffset: 0; } }
+
+.sweep .sweep-dot, .sweep .link {
+  opacity: 0;
+  animation: sweepIn .5s ease-out forwards;
+}
+
+/* .link is a <path>, so it inherits the 600-unit dash pattern above;
+   restore its own dashes and offset or it never becomes visible. */
+.sweep .link { stroke-dasharray: 2 5; stroke-dashoffset: 0; }
+
+@keyframes sweepIn { to { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .js .rise, .js .rise.in { opacity: 1; transform: none; transition: none; }
+  .sweep path, .sweep .sweep-dot, .sweep .link { animation: none !important;
+    stroke-dashoffset: 0 !important; opacity: 1 !important; }
+}
