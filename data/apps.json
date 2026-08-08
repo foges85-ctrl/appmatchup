@@ -103,6 +103,23 @@
         "min_ios": "15.0",
         "ipad": true
       }
+    },
+    "netscanpro": {
+      "display_name": "NetScanPro",
+      "data_app": "NetScanPro",
+      "track_id": 6762677151,
+      "price_display": "Free to download; a $6.99 one-time in-app purchase unlocks Pro",
+      "auto": {
+        "developer": "Fogarty Holdings LLC",
+        "rating": 5,
+        "rating_count": 2,
+        "version": "1.11.6",
+        "version_updated": "2026-08-07",
+        "released": "2026-04-24",
+        "size_mb": 7.9,
+        "min_ios": "17.0",
+        "ipad": true
+      }
     }
   },
   "pages": {
@@ -121,6 +138,10 @@
     "ip-scanner-vs-inet.html": [
       "ip-scanner",
       "inet"
+    ],
+    "netscanpro-vs-fing.html": [
+      "netscanpro",
+      "fing"
     ]
   }
 }
