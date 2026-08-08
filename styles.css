@@ -137,7 +137,10 @@ h1 {
   gap: 12px;
 }
 
-.eyebrow .num { color: var(--accent); }
+.eyebrow::before {
+  content: attr(data-num);
+  color: var(--accent);
+}
 
 .fig-sec, .diff, .disc { border-top: 1px solid var(--rule); padding: 40px 0; }
 
