@@ -1,0 +1,87 @@
+{
+  "fetched_at": "2026-08-08",
+  "apps": {
+    "fing": {
+      "display_name": "Fing",
+      "data_app": "Fing",
+      "track_id": 430921107,
+      "price_display": "Free to download; Premium $7.99/month or $69.99/year, Professional $16.99/month or $149.99/year, per Fing’s pricing page on 2026-08-08",
+      "auto": {
+        "developer": "Fing Limited",
+        "rating": 4.65,
+        "rating_count": 115727,
+        "version": "12.13.2",
+        "version_updated": "2026-07-23",
+        "released": "2011-04-19",
+        "size_mb": 235.1,
+        "min_ios": "16.4",
+        "ipad": true
+      }
+    },
+    "wifiman": {
+      "display_name": "Ubiquiti WiFiman",
+      "data_app": "WiFiman",
+      "track_id": 1385561119,
+      "price_display": "Free",
+      "auto": {
+        "developer": "Ubiquiti Inc.",
+        "rating": 4.8,
+        "rating_count": 39108,
+        "version": "1.37.1",
+        "version_updated": "2026-07-28",
+        "released": "2018-08-04",
+        "size_mb": 198.4,
+        "min_ios": "18.0",
+        "ipad": true
+      }
+    },
+    "network-analyzer-pro": {
+      "display_name": "Network Analyzer Pro",
+      "data_app": "Network Analyzer",
+      "track_id": 557405467,
+      "price_display": "$3.99 one-time",
+      "auto": {
+        "developer": "Jiri Techet",
+        "rating": 4.78,
+        "rating_count": 9061,
+        "version": "9.0.2",
+        "version_updated": "2026-03-18",
+        "released": "2012-09-18",
+        "size_mb": 10.3,
+        "min_ios": "18.0",
+        "ipad": true
+      }
+    },
+    "inet-pro": {
+      "display_name": "iNet Pro",
+      "data_app": "iNet Pro",
+      "track_id": 305242949,
+      "price_display": "$11.99",
+      "auto": {
+        "developer": "BananaGlue GmbH",
+        "rating": 4.7,
+        "rating_count": 738,
+        "version": "4.1",
+        "version_updated": "2026-07-22",
+        "released": "2009-04-10",
+        "size_mb": 75.7,
+        "min_ios": "15.0",
+        "ipad": true
+      }
+    }
+  },
+  "pages": {
+    "fing-vs-wifiman.html": [
+      "fing",
+      "wifiman"
+    ],
+    "network-analyzer-pro-vs-inet-pro.html": [
+      "network-analyzer-pro",
+      "inet-pro"
+    ],
+    "fing-vs-network-analyzer-pro.html": [
+      "fing",
+      "network-analyzer-pro"
+    ]
+  }
+}
