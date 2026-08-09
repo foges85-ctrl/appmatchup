@@ -155,6 +155,40 @@
         "min_ios": "16.6",
         "ipad": true
       }
+    },
+    "ankimobile": {
+      "display_name": "AnkiMobile",
+      "data_app": "AnkiMobile",
+      "track_id": 373493387,
+      "price_display": "$24.99 one-time",
+      "auto": {
+        "developer": "Anki Software LLC",
+        "rating": 4.04,
+        "rating_count": 2315,
+        "version": "25.09",
+        "version_updated": "2025-09-08",
+        "released": "2010-05-27",
+        "size_mb": 48.0,
+        "min_ios": "15.2",
+        "ipad": true
+      }
+    },
+    "remnote": {
+      "display_name": "RemNote",
+      "data_app": "RemNote",
+      "track_id": 1545429784,
+      "price_display": "Free to download; Pro $8/month or $96 billed yearly, Pro with AI $18/month or $216 billed yearly, per RemNote’s pricing page on 2026-08-08",
+      "auto": {
+        "developer": "RemNote, LLC",
+        "rating": 4.85,
+        "rating_count": 1465,
+        "version": "1.27.25",
+        "version_updated": "2026-08-08",
+        "released": "2023-01-22",
+        "size_mb": 172.4,
+        "min_ios": "16.5",
+        "ipad": true
+      }
     }
   },
   "pages": {
@@ -181,6 +215,10 @@
     "quizlet-vs-brainscape.html": [
       "quizlet",
       "brainscape"
+    ],
+    "ankimobile-vs-remnote.html": [
+      "ankimobile",
+      "remnote"
     ]
   }
 }
