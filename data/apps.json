@@ -9,7 +9,7 @@
       "auto": {
         "developer": "Fing Limited",
         "rating": 4.65,
-        "rating_count": 115727,
+        "rating_count": 115730,
         "version": "12.13.2",
         "version_updated": "2026-07-23",
         "released": "2011-04-19",
@@ -26,7 +26,7 @@
       "auto": {
         "developer": "Ubiquiti Inc.",
         "rating": 4.8,
-        "rating_count": 39108,
+        "rating_count": 39120,
         "version": "1.37.1",
         "version_updated": "2026-07-28",
         "released": "2018-08-04",
@@ -120,6 +120,41 @@
         "min_ios": "17.0",
         "ipad": true
       }
+    },
+    "quizlet": {
+      "display_name": "Quizlet",
+      "data_app": "Quizlet",
+      "track_id": 546473125,
+      "price_display": "Free to download; paid subscription tiers, prices not verified here",
+      "auto": {
+        "developer": "Quizlet Inc",
+        "rating": 4.78,
+        "rating_count": 1099373,
+        "version": "10.46",
+        "version_updated": "2026-08-03",
+        "released": "2012-08-09",
+        "size_mb": 266.3,
+        "min_ios": "17",
+        "ipad": true
+      }
+    },
+    "brainscape": {
+      "display_name": "Brainscape",
+      "data_app": "Brainscape",
+      "developer_display": "Bold Learning Solutions",
+      "track_id": 442415567,
+      "price_display": "Free to download; Pro $7.99/month billed yearly, per Brainscape’s pricing page on 2026-08-08",
+      "auto": {
+        "developer": "Bold Learning Solutions, Inc.",
+        "rating": 4.76,
+        "rating_count": 21133,
+        "version": "4.20260722",
+        "version_updated": "2026-07-31",
+        "released": "2011-07-15",
+        "size_mb": 42.5,
+        "min_ios": "16.6",
+        "ipad": true
+      }
     }
   },
   "pages": {
@@ -142,6 +177,10 @@
     "netscanpro-vs-fing.html": [
       "netscanpro",
       "fing"
+    ],
+    "quizlet-vs-brainscape.html": [
+      "quizlet",
+      "brainscape"
     ]
   }
 }
