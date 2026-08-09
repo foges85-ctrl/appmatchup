@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08",
+  "fetched_at": "2026-08-09",
   "apps": {
     "fing": {
       "display_name": "Fing",
@@ -9,7 +9,7 @@
       "auto": {
         "developer": "Fing Limited",
         "rating": 4.65,
-        "rating_count": 115730,
+        "rating_count": 115736,
         "version": "12.13.2",
         "version_updated": "2026-07-23",
         "released": "2011-04-19",
@@ -26,7 +26,7 @@
       "auto": {
         "developer": "Ubiquiti Inc.",
         "rating": 4.8,
-        "rating_count": 39120,
+        "rating_count": 39124,
         "version": "1.37.1",
         "version_updated": "2026-07-28",
         "released": "2018-08-04",
@@ -43,7 +43,7 @@
       "auto": {
         "developer": "Jiri Techet",
         "rating": 4.78,
-        "rating_count": 9061,
+        "rating_count": 9062,
         "version": "9.0.2",
         "version_updated": "2026-03-18",
         "released": "2012-09-18",
@@ -129,7 +129,7 @@
       "auto": {
         "developer": "Quizlet Inc",
         "rating": 4.78,
-        "rating_count": 1099373,
+        "rating_count": 1099444,
         "version": "10.46",
         "version_updated": "2026-08-03",
         "released": "2012-08-09",
@@ -147,7 +147,7 @@
       "auto": {
         "developer": "Bold Learning Solutions, Inc.",
         "rating": 4.76,
-        "rating_count": 21133,
+        "rating_count": 21134,
         "version": "4.20260722",
         "version_updated": "2026-07-31",
         "released": "2011-07-15",
@@ -189,6 +189,40 @@
         "min_ios": "16.5",
         "ipad": true
       }
+    },
+    "certflash": {
+      "display_name": "CertFlash",
+      "data_app": "CertFlash",
+      "track_id": 6761732835,
+      "price_display": "Free to download; a $5.99 one-time in-app purchase unlocks the remaining decks",
+      "auto": {
+        "developer": "Fogarty Holdings LLC",
+        "rating": 5,
+        "rating_count": 3,
+        "version": "1.6.1",
+        "version_updated": "2026-08-08",
+        "released": "2026-04-09",
+        "size_mb": 5.5,
+        "min_ios": "17.0",
+        "ipad": true
+      }
+    },
+    "pocketprep-it": {
+      "display_name": "Pocket Prep",
+      "data_app": "Pocket Prep",
+      "track_id": 1501744813,
+      "price_display": "Free to download; Premium $20.99/month, $49.99 for three months, or $124.99/year, per Pocket Prep’s exam pages on 2026-08-09",
+      "auto": {
+        "developer": "Pocket Prep, Inc.",
+        "rating": 4.8,
+        "rating_count": 5035,
+        "version": "3.28.1",
+        "version_updated": "2026-08-04",
+        "released": "2020-04-20",
+        "size_mb": 91.8,
+        "min_ios": "18.0",
+        "ipad": true
+      }
     }
   },
   "pages": {
@@ -219,6 +253,10 @@
     "ankimobile-vs-remnote.html": [
       "ankimobile",
       "remnote"
+    ],
+    "certflash-vs-pocket-prep.html": [
+      "certflash",
+      "pocketprep-it"
     ]
   }
 }
