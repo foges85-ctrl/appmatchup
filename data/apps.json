@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-09",
+  "fetched_at": "2026-08-10",
   "apps": {
     "fing": {
       "display_name": "Fing",
@@ -9,7 +9,7 @@
       "auto": {
         "developer": "Fing Limited",
         "rating": 4.65,
-        "rating_count": 115736,
+        "rating_count": 115689,
         "version": "12.13.2",
         "version_updated": "2026-07-23",
         "released": "2011-04-19",
@@ -26,7 +26,7 @@
       "auto": {
         "developer": "Ubiquiti Inc.",
         "rating": 4.8,
-        "rating_count": 39124,
+        "rating_count": 39110,
         "version": "1.37.1",
         "version_updated": "2026-07-28",
         "released": "2018-08-04",
@@ -43,7 +43,7 @@
       "auto": {
         "developer": "Jiri Techet",
         "rating": 4.78,
-        "rating_count": 9062,
+        "rating_count": 9059,
         "version": "9.0.2",
         "version_updated": "2026-03-18",
         "released": "2012-09-18",
@@ -78,7 +78,7 @@
       "auto": {
         "developer": "MATIA LABS, INC.",
         "rating": 4.64,
-        "rating_count": 889,
+        "rating_count": 885,
         "version": "6.33",
         "version_updated": "2026-07-25",
         "released": "2022-10-21",
@@ -113,8 +113,8 @@
         "developer": "Fogarty Holdings LLC",
         "rating": 5,
         "rating_count": 2,
-        "version": "1.11.6",
-        "version_updated": "2026-08-07",
+        "version": "1.11.7",
+        "version_updated": "2026-08-09",
         "released": "2026-04-24",
         "size_mb": 7.9,
         "min_ios": "17.0",
@@ -129,7 +129,7 @@
       "auto": {
         "developer": "Quizlet Inc",
         "rating": 4.78,
-        "rating_count": 1099444,
+        "rating_count": 1099583,
         "version": "10.46",
         "version_updated": "2026-08-03",
         "released": "2012-08-09",
@@ -147,7 +147,7 @@
       "auto": {
         "developer": "Bold Learning Solutions, Inc.",
         "rating": 4.76,
-        "rating_count": 21134,
+        "rating_count": 21135,
         "version": "4.20260722",
         "version_updated": "2026-07-31",
         "released": "2011-07-15",
@@ -164,7 +164,7 @@
       "auto": {
         "developer": "Anki Software LLC",
         "rating": 4.04,
-        "rating_count": 2315,
+        "rating_count": 2314,
         "version": "25.09",
         "version_updated": "2025-09-08",
         "released": "2010-05-27",
@@ -181,7 +181,7 @@
       "auto": {
         "developer": "RemNote, LLC",
         "rating": 4.85,
-        "rating_count": 1465,
+        "rating_count": 1466,
         "version": "1.27.25",
         "version_updated": "2026-08-08",
         "released": "2023-01-22",
@@ -215,7 +215,7 @@
       "auto": {
         "developer": "Pocket Prep, Inc.",
         "rating": 4.8,
-        "rating_count": 5035,
+        "rating_count": 5034,
         "version": "3.28.1",
         "version_updated": "2026-08-04",
         "released": "2020-04-20",
@@ -232,11 +232,46 @@
       "auto": {
         "developer": "Knowt Inc.",
         "rating": 4.73,
-        "rating_count": 10232,
+        "rating_count": 10234,
         "version": "3.19.0",
         "version_updated": "2026-08-05",
         "released": "2023-10-13",
         "size_mb": 228.6,
+        "min_ios": "16.4",
+        "ipad": true
+      }
+    },
+    "mileiq": {
+      "display_name": "MileIQ",
+      "data_app": "MileIQ",
+      "track_id": 578830929,
+      "price_display": "Free to download, capped at 40 drives per month; Unlimited $11.66/month billed annually or $13.99 monthly, per MileIQ’s pricing page on 2026-08-10",
+      "auto": {
+        "developer": "MileIQ Inc.",
+        "rating": 4.77,
+        "rating_count": 110378,
+        "version": "5.66.0",
+        "version_updated": "2026-07-10",
+        "released": "2013-01-15",
+        "size_mb": 121.4,
+        "min_ios": "16.0",
+        "ipad": true
+      }
+    },
+    "stride": {
+      "display_name": "Stride",
+      "data_app": "Stride",
+      "developer_display": "Stride Health",
+      "track_id": 1041591359,
+      "price_display": "Free; the App Store listing states the app is free to use",
+      "auto": {
+        "developer": "Stride Health, Inc",
+        "rating": 4.84,
+        "rating_count": 94476,
+        "version": "26.5.0",
+        "version_updated": "2026-07-30",
+        "released": "2015-10-12",
+        "size_mb": 115.8,
         "min_ios": "16.4",
         "ipad": true
       }
@@ -278,6 +313,10 @@
     "quizlet-vs-knowt.html": [
       "quizlet",
       "knowt"
+    ],
+    "mileiq-vs-stride.html": [
+      "mileiq",
+      "stride"
     ]
   }
 }
