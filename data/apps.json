@@ -309,6 +309,42 @@
         "min_ios": "16.4",
         "ipad": true
       }
+    },
+    "jobber": {
+      "display_name": "Jobber",
+      "data_app": "Jobber",
+      "developer_display": "Octopusapp",
+      "track_id": 1014146758,
+      "price_display": "Free to download; plans start at $29/month, with each additional user $29/month, per Jobber’s pricing page on 2026-08-10",
+      "auto": {
+        "developer": "Octopusapp Inc",
+        "rating": 4.81,
+        "rating_count": 20431,
+        "version": "6.89.0",
+        "version_updated": "2026-08-04",
+        "released": "2015-08-21",
+        "size_mb": 243.0,
+        "min_ios": "16.2",
+        "ipad": true
+      }
+    },
+    "housecall-pro": {
+      "display_name": "Housecall Pro",
+      "data_app": "Housecall Pro",
+      "developer_display": "Codefied",
+      "track_id": 692833651,
+      "price_display": "Free to download; Basic $59/month billed annually or $79/month, Essentials $149/month billed annually or $189/month, higher tiers by quote, excluding sales tax, per Housecall Pro’s pricing page on 2026-08-10",
+      "auto": {
+        "developer": "Codefied Inc.",
+        "rating": 4.65,
+        "rating_count": 28446,
+        "version": "2026.8.6",
+        "version_updated": "2026-08-10",
+        "released": "2013-09-01",
+        "size_mb": 596.5,
+        "min_ios": "16.0",
+        "ipad": true
+      }
     }
   },
   "pages": {
@@ -355,6 +391,10 @@
     "everlance-vs-driversnote.html": [
       "everlance",
       "driversnote"
+    ],
+    "jobber-vs-housecall-pro.html": [
+      "jobber",
+      "housecall-pro"
     ]
   }
 }
