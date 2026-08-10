@@ -345,6 +345,23 @@
         "min_ios": "16.0",
         "ipad": true
       }
+    },
+    "field-stub": {
+      "display_name": "Field Stub",
+      "data_app": "Field Stub",
+      "track_id": 6767348984,
+      "price_display": "Free to download, capped at 5 clients; a $39.99 one-time in-app purchase unlocks Pro",
+      "auto": {
+        "developer": "Fogarty Holdings LLC",
+        "rating": 5,
+        "rating_count": 2,
+        "version": "1.0.4",
+        "version_updated": "2026-08-04",
+        "released": "2026-05-07",
+        "size_mb": 12.4,
+        "min_ios": "17.0",
+        "ipad": true
+      }
     }
   },
   "pages": {
@@ -395,6 +412,10 @@
     "jobber-vs-housecall-pro.html": [
       "jobber",
       "housecall-pro"
+    ],
+    "field-stub-vs-jobber.html": [
+      "field-stub",
+      "jobber"
     ]
   }
 }
