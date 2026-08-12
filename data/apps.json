@@ -433,6 +433,41 @@
         "min_ios": "17.0",
         "ipad": true
       }
+    },
+    "contacts-plus": {
+      "display_name": "Contacts+",
+      "data_app": "Contacts+",
+      "developer_display": "FullContact",
+      "track_id": 579616837,
+      "price_display": "Free forever with no card, syncing one account and up to 1,000 contacts; Premium from $9.99/user per month billed annually or $13.99 monthly; Teams from $12.99 or $17.99, per Contacts+ pricing page on 2026-08-12",
+      "auto": {
+        "developer": "FullContact Inc.",
+        "rating": 4.55,
+        "rating_count": 5806,
+        "version": "26.06.0",
+        "version_updated": "2026-06-03",
+        "released": "2012-12-06",
+        "size_mb": 54.2,
+        "min_ios": "15.0",
+        "ipad": true
+      }
+    },
+    "circleback": {
+      "display_name": "CircleBack",
+      "data_app": "CircleBack",
+      "track_id": 957826826,
+      "price_display": "Free to download; no pricing is published on the developer’s site",
+      "auto": {
+        "developer": "CircleBack, Inc.",
+        "rating": 4.45,
+        "rating_count": 2549,
+        "version": "3.3.8",
+        "version_updated": "2026-05-18",
+        "released": "2015-01-29",
+        "size_mb": 123.3,
+        "min_ios": "17.6",
+        "ipad": true
+      }
     }
   },
   "pages": {
@@ -495,6 +530,10 @@
     "dex-vs-mesh.html": [
       "dex",
       "mesh"
+    ],
+    "contacts-plus-vs-circleback.html": [
+      "contacts-plus",
+      "circleback"
     ]
   }
 }
