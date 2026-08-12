@@ -397,6 +397,42 @@
         "min_ios": "17.0",
         "ipad": true
       }
+    },
+    "dex": {
+      "display_name": "Dex",
+      "data_app": "Dex",
+      "developer_display": "Dana HQ",
+      "track_id": 1472132715,
+      "price_display": "No free tier; Premium $12/month billed annually, $16 quarterly or $20 monthly, Professional $20/$27/$34, each with a 7-day trial, per Dex’s pricing page on 2026-08-12",
+      "auto": {
+        "developer": "Dana HQ, Inc.",
+        "rating": 4.41,
+        "rating_count": 246,
+        "version": "3.67.0",
+        "version_updated": "2026-08-08",
+        "released": "2021-03-30",
+        "size_mb": 176.3,
+        "min_ios": "18.0",
+        "ipad": true
+      }
+    },
+    "mesh": {
+      "display_name": "Mesh",
+      "data_app": "Mesh",
+      "developer_display": "Clay Software",
+      "track_id": 1463073824,
+      "price_display": "Free for up to 1,000 contacts, credit card required; Pro $10/month, Team $40 per seat/month, per Mesh’s pricing page on 2026-08-12",
+      "auto": {
+        "developer": "Clay Software, Inc.",
+        "rating": 4.42,
+        "rating_count": 759,
+        "version": "2026.5.1",
+        "version_updated": "2026-08-07",
+        "released": "2019-11-07",
+        "size_mb": 211.1,
+        "min_ios": "17.0",
+        "ipad": true
+      }
     }
   },
   "pages": {
@@ -455,6 +491,10 @@
     "cloze-vs-contacts-journal.html": [
       "cloze",
       "contacts-journal"
+    ],
+    "dex-vs-mesh.html": [
+      "dex",
+      "mesh"
     ]
   }
 }
