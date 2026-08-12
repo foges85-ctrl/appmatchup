@@ -468,6 +468,23 @@
         "min_ios": "17.6",
         "ipad": true
       }
+    },
+    "referra": {
+      "display_name": "Referra",
+      "data_app": "Referra",
+      "track_id": 6763003248,
+      "price_display": "Free to download, capped at 25 contacts; Pro $4.99/month, $39.99/year, or $79.99 once",
+      "auto": {
+        "developer": "Fogarty Holdings LLC",
+        "rating": 5,
+        "rating_count": 3,
+        "version": "1.6.1",
+        "version_updated": "2026-07-26",
+        "released": "2026-04-25",
+        "size_mb": 3.6,
+        "min_ios": "17.0",
+        "ipad": true
+      }
     }
   },
   "pages": {
@@ -534,6 +551,10 @@
     "contacts-plus-vs-circleback.html": [
       "contacts-plus",
       "circleback"
+    ],
+    "referra-vs-contacts-journal.html": [
+      "referra",
+      "contacts-journal"
     ]
   }
 }
