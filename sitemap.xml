@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://appmatchup.com/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-08-12</lastmod>
   </url>
   <url>
     <loc>https://appmatchup.com/fing-vs-wifiman.html</loc>
@@ -55,5 +55,9 @@
   <url>
     <loc>https://appmatchup.com/field-stub-vs-jobber.html</loc>
     <lastmod>2026-08-10</lastmod>
+  </url>
+  <url>
+    <loc>https://appmatchup.com/cloze-vs-contacts-journal.html</loc>
+    <lastmod>2026-08-12</lastmod>
   </url>
 </urlset>

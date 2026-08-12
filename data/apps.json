@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-10",
+  "fetched_at": "2026-08-12",
   "apps": {
     "fing": {
       "display_name": "Fing",
@@ -9,7 +9,7 @@
       "auto": {
         "developer": "Fing Limited",
         "rating": 4.65,
-        "rating_count": 115689,
+        "rating_count": 115705,
         "version": "12.13.2",
         "version_updated": "2026-07-23",
         "released": "2011-04-19",
@@ -26,7 +26,7 @@
       "auto": {
         "developer": "Ubiquiti Inc.",
         "rating": 4.8,
-        "rating_count": 39110,
+        "rating_count": 39153,
         "version": "1.37.1",
         "version_updated": "2026-07-28",
         "released": "2018-08-04",
@@ -44,10 +44,10 @@
         "developer": "Jiri Techet",
         "rating": 4.78,
         "rating_count": 9059,
-        "version": "9.0.2",
-        "version_updated": "2026-03-18",
+        "version": "9.1",
+        "version_updated": "2026-08-11",
         "released": "2012-09-18",
-        "size_mb": 10.3,
+        "size_mb": 12.0,
         "min_ios": "18.0",
         "ipad": true
       }
@@ -79,10 +79,10 @@
         "developer": "MATIA LABS, INC.",
         "rating": 4.64,
         "rating_count": 885,
-        "version": "6.33",
-        "version_updated": "2026-07-25",
+        "version": "6.37",
+        "version_updated": "2026-08-11",
         "released": "2022-10-21",
-        "size_mb": 16.8,
+        "size_mb": 18.1,
         "min_ios": "26",
         "ipad": true
       }
@@ -129,11 +129,11 @@
       "auto": {
         "developer": "Quizlet Inc",
         "rating": 4.78,
-        "rating_count": 1099583,
-        "version": "10.46",
-        "version_updated": "2026-08-03",
+        "rating_count": 1100101,
+        "version": "10.47",
+        "version_updated": "2026-08-11",
         "released": "2012-08-09",
-        "size_mb": 266.3,
+        "size_mb": 267.9,
         "min_ios": "17",
         "ipad": true
       }
@@ -147,7 +147,7 @@
       "auto": {
         "developer": "Bold Learning Solutions, Inc.",
         "rating": 4.76,
-        "rating_count": 21135,
+        "rating_count": 21144,
         "version": "4.20260722",
         "version_updated": "2026-07-31",
         "released": "2011-07-15",
@@ -181,11 +181,11 @@
       "auto": {
         "developer": "RemNote, LLC",
         "rating": 4.85,
-        "rating_count": 1466,
-        "version": "1.27.26",
-        "version_updated": "2026-08-10",
+        "rating_count": 1470,
+        "version": "1.27.30",
+        "version_updated": "2026-08-11",
         "released": "2023-01-22",
-        "size_mb": 173.0,
+        "size_mb": 173.2,
         "min_ios": "16.5",
         "ipad": true
       }
@@ -232,7 +232,7 @@
       "auto": {
         "developer": "Knowt Inc.",
         "rating": 4.73,
-        "rating_count": 10234,
+        "rating_count": 10242,
         "version": "3.19.0",
         "version_updated": "2026-08-05",
         "released": "2023-10-13",
@@ -249,7 +249,7 @@
       "auto": {
         "developer": "MileIQ Inc.",
         "rating": 4.77,
-        "rating_count": 110378,
+        "rating_count": 110497,
         "version": "5.66.0",
         "version_updated": "2026-07-10",
         "released": "2013-01-15",
@@ -267,7 +267,7 @@
       "auto": {
         "developer": "Stride Health, Inc",
         "rating": 4.84,
-        "rating_count": 94476,
+        "rating_count": 94602,
         "version": "26.5.0",
         "version_updated": "2026-07-30",
         "released": "2015-10-12",
@@ -284,12 +284,12 @@
       "auto": {
         "developer": "Everlance Inc.",
         "rating": 4.83,
-        "rating_count": 51273,
-        "version": "5.5.0",
-        "version_updated": "2026-07-31",
+        "rating_count": 51321,
+        "version": "5.5.1",
+        "version_updated": "2026-08-11",
         "released": "2015-08-21",
-        "size_mb": 184.8,
-        "min_ios": "14.1",
+        "size_mb": 193.3,
+        "min_ios": "15.0",
         "ipad": true
       }
     },
@@ -301,7 +301,7 @@
       "auto": {
         "developer": "Driversnote ApS",
         "rating": 4.78,
-        "rating_count": 38227,
+        "rating_count": 38249,
         "version": "4.28.4",
         "version_updated": "2026-07-04",
         "released": "2014-11-18",
@@ -319,7 +319,7 @@
       "auto": {
         "developer": "Octopusapp Inc",
         "rating": 4.81,
-        "rating_count": 20431,
+        "rating_count": 20444,
         "version": "6.89.0",
         "version_updated": "2026-08-04",
         "released": "2015-08-21",
@@ -337,7 +337,7 @@
       "auto": {
         "developer": "Codefied Inc.",
         "rating": 4.65,
-        "rating_count": 28446,
+        "rating_count": 28501,
         "version": "2026.8.6",
         "version_updated": "2026-08-10",
         "released": "2013-09-01",
@@ -355,10 +355,45 @@
         "developer": "Fogarty Holdings LLC",
         "rating": 5,
         "rating_count": 2,
-        "version": "1.0.4",
-        "version_updated": "2026-08-04",
+        "version": "1.0.5",
+        "version_updated": "2026-08-11",
         "released": "2026-05-07",
         "size_mb": 12.4,
+        "min_ios": "17.0",
+        "ipad": true
+      }
+    },
+    "cloze": {
+      "display_name": "Cloze",
+      "data_app": "Cloze",
+      "track_id": 596927802,
+      "price_display": "Free to download; Pro $17/month billed annually or $19.99 month-to-month, Business Silver $21/user/month billed annually or $24.99 month-to-month, per Cloze’s pricing page on 2026-08-12",
+      "auto": {
+        "developer": "Cloze, Inc.",
+        "rating": 4.65,
+        "rating_count": 2772,
+        "version": "2026.5",
+        "version_updated": "2026-05-18",
+        "released": "2013-02-19",
+        "size_mb": 169.2,
+        "min_ios": "16.0",
+        "ipad": true
+      }
+    },
+    "contacts-journal": {
+      "display_name": "Contacts Journal CRM",
+      "data_app": "Contacts Journal",
+      "developer_display": "Zaal",
+      "track_id": 327685977,
+      "price_display": "Free to download with in-app purchases; no price is published on the developer’s site",
+      "auto": {
+        "developer": "zaal LLC",
+        "rating": 4.73,
+        "rating_count": 2361,
+        "version": "7.0.2",
+        "version_updated": "2026-08-12",
+        "released": "2009-09-14",
+        "size_mb": 75.7,
         "min_ios": "17.0",
         "ipad": true
       }
@@ -416,6 +451,10 @@
     "field-stub-vs-jobber.html": [
       "field-stub",
       "jobber"
+    ],
+    "cloze-vs-contacts-journal.html": [
+      "cloze",
+      "contacts-journal"
     ]
   }
 }
