@@ -241,7 +241,7 @@ h1 {
 
   .disc-body { padding: 28px 32px; }
 
-  .foot-in { flex-direction: row; justify-content: space-between; align-items: center; }
+  .foot-in { flex-direction: row; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; align-items: center; }
 }
 
 /* ============================================================

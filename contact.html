@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — AppMatchup</title>
+<meta name="description" content="How to reach AppMatchup about a correction, a question or an app you'd like compared.">
+<link rel="canonical" href="https://appmatchup.com/contact.html">
+<meta name="theme-color" content="#0b0b0c">
+<meta name="color-scheme" content="dark">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AppMatchup">
+<meta property="og:url" content="https://appmatchup.com/contact.html">
+<meta property="og:title" content="Contact — AppMatchup">
+<meta property="og:description" content="How to reach AppMatchup about a correction, a question or an app you'd like compared.">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://appmatchup.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AppMatchup &mdash; head-to-head app comparisons">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact — AppMatchup">
+<meta name="twitter:description" content="How to reach AppMatchup about a correction, a question or an app you'd like compared.">
+
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W24D0NKMW5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-W24D0NKMW5');
+</script>
+</head>
+<body>
+
+<header class="bar">
+  <div class="wrap bar-in">
+    <a class="mark" href="/">APP<span class="slash">/</span>MATCHUP</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="cmp-hero">
+    <div class="wrap">
+      <h1 class="rise" style="--d:.05s">Contact</h1>
+      <p class="lede rise" style="--d:.15s">AppMatchup is operated by Fogarty Holdings LLC in Brooklyn, New York. Email is the only way to get in touch &mdash; there is no form on this site.</p>
+    </div>
+  </section>
+
+  <section class="cmp-sec" aria-labelledby="email-h">
+    <div class="wrap rise" style="--d:.25s">
+      <h2 class="eyebrow" id="email-h" data-num="01">Email</h2>
+
+      <p><a href="mailto:contact@fogartyholdings.com">contact@fogartyholdings.com</a></p>
+    </div>
+  </section>
+
+  <section class="cmp-sec" aria-labelledby="corr-h">
+    <div class="wrap rise" style="--d:.35s">
+      <h2 class="eyebrow" id="corr-h" data-num="02">Corrections</h2>
+
+      <p>If a comparison states something inaccurate about an app, say so. Include the page it is on and the claim you are pointing at, so it can be checked against the source it came from.</p>
+
+      <p>Corrections to factual claims are made on the page directly. Developers who want a detail about their own app corrected are explicitly welcome to write.</p>
+    </div>
+  </section>
+
+  <section class="cmp-sec" aria-labelledby="sugg-h">
+    <div class="wrap rise">
+      <h2 class="eyebrow" id="sugg-h" data-num="03">Suggestions</h2>
+
+      <p>Suggestions for apps worth comparing are welcome. A suggestion is not a guarantee that a comparison gets written &mdash; each one takes a fair amount of reading, and only some pairs end up making a useful page.</p>
+
+      <p>We do not accept payment for placement or coverage, which is the same commitment made on the <a href="/about.html">About page</a>.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p>AppMatchup is operated by Fogarty Holdings LLC.</p>
+    <p><a href="/about.html">About</a> &middot; <a href="/privacy.html">Privacy</a> &middot; <a href="/contact.html">Contact</a></p>
+    <p><a href="https://fogartyholdings.com">fogartyholdings.com</a></p>
+  </div>
+</footer>
+
+<script>
+document.documentElement.classList.add('js');
+(function(){
+  var els = document.querySelectorAll('.rise');
+  if (!('IntersectionObserver' in window)) {
+    els.forEach(function(e){ e.classList.add('in'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  }, { rootMargin: '0px 0px -10% 0px' });
+  els.forEach(function(e){ io.observe(e); });
+})();
+</script>
+</body>
+</html>
