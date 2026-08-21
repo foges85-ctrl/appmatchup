@@ -520,6 +520,41 @@
         "min_ios": "15.5",
         "ipad": true
       }
+    },
+    "sortly": {
+      "display_name": "Sortly",
+      "data_app": "Sortly",
+      "track_id": 529353551,
+      "price_display": "Free plan at $0; Advanced $49/month or $24/month billed yearly ($288/yr); Ultra $149/month or $74/month billed yearly ($888/yr). The yearly discount shown is a first-year rate — per Sortly’s pricing page on 2026-08-21",
+      "auto": {
+        "developer": "Sortly Inc.",
+        "rating": 4.73,
+        "rating_count": 9440,
+        "version": "10.26.0",
+        "version_updated": "2026-08-19",
+        "released": "2012-06-05",
+        "size_mb": 77.0,
+        "min_ios": "18.5",
+        "ipad": true
+      }
+    },
+    "orca-scan": {
+      "display_name": "Orca Scan",
+      "data_app": "Orca Scan",
+      "developer_display": "Orca Scan",
+      "track_id": 1161117971,
+      "price_display": "Free forever plan at $0; Starter $49/month or $39/month billed annually; Business $99/month or $79/month billed annually; Enterprise $500/month or $400/month billed annually, per Orca Scan’s pricing page on 2026-08-21",
+      "auto": {
+        "developer": "ORCA SCAN LIMITED",
+        "rating": 4.7,
+        "rating_count": 1868,
+        "version": "12.7.3",
+        "version_updated": "2026-08-17",
+        "released": "2016-11-03",
+        "size_mb": 18.0,
+        "min_ios": "12.0",
+        "ipad": true
+      }
     }
   },
   "pages": {
@@ -594,6 +629,10 @@
     "todoist-vs-ticktick.html": [
       "todoist",
       "ticktick"
+    ],
+    "sortly-vs-orca-scan.html": [
+      "sortly",
+      "orca-scan"
     ]
   }
 }
