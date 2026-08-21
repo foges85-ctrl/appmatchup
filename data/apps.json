@@ -555,6 +555,24 @@
         "min_ios": "12.0",
         "ipad": true
       }
+    },
+    "boxhero": {
+      "display_name": "BoxHero",
+      "data_app": "BoxHero",
+      "developer_display": "BGPworks",
+      "track_id": 1325512157,
+      "price_display": "Personal plan free with 1 member, 100 items and 1 location; Business $24 per team per month, or $288 annually, per BoxHero’s pricing page on 2026-08-21",
+      "auto": {
+        "developer": "BGPworks",
+        "rating": 4.53,
+        "rating_count": 165,
+        "version": "3.57.0",
+        "version_updated": "2026-08-06",
+        "released": "2019-05-23",
+        "size_mb": 85.5,
+        "min_ios": "15.5",
+        "ipad": true
+      }
     }
   },
   "pages": {
@@ -633,6 +651,10 @@
     "sortly-vs-orca-scan.html": [
       "sortly",
       "orca-scan"
+    ],
+    "sortly-vs-boxhero.html": [
+      "sortly",
+      "boxhero"
     ]
   }
 }
