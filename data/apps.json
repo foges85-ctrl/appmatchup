@@ -573,6 +573,23 @@
         "min_ios": "15.5",
         "ipad": true
       }
+    },
+    "tagsweep": {
+      "display_name": "TagSweep",
+      "data_app": "TagSweep",
+      "track_id": 6794753844,
+      "price_display": "Free to download, capped at 100 devices with every feature included; $29.99 one-time to remove the limit",
+      "auto": {
+        "developer": "Fogarty Holdings LLC",
+        "rating": 5,
+        "rating_count": 1,
+        "version": "1.0",
+        "version_updated": "2026-08-06",
+        "released": "2026-08-06",
+        "size_mb": 2.2,
+        "min_ios": "17.0",
+        "ipad": true
+      }
     }
   },
   "pages": {
@@ -655,6 +672,10 @@
     "sortly-vs-boxhero.html": [
       "sortly",
       "boxhero"
+    ],
+    "tagsweep-vs-sortly.html": [
+      "tagsweep",
+      "sortly"
     ]
   }
 }
