@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-12",
+  "fetched_at": "2026-08-21",
   "apps": {
     "fing": {
       "display_name": "Fing",
@@ -9,7 +9,7 @@
       "auto": {
         "developer": "Fing Limited",
         "rating": 4.65,
-        "rating_count": 115705,
+        "rating_count": 115853,
         "version": "12.13.2",
         "version_updated": "2026-07-23",
         "released": "2011-04-19",
@@ -26,7 +26,7 @@
       "auto": {
         "developer": "Ubiquiti Inc.",
         "rating": 4.8,
-        "rating_count": 39153,
+        "rating_count": 39382,
         "version": "1.37.1",
         "version_updated": "2026-07-28",
         "released": "2018-08-04",
@@ -43,7 +43,7 @@
       "auto": {
         "developer": "Jiri Techet",
         "rating": 4.78,
-        "rating_count": 9059,
+        "rating_count": 9088,
         "version": "9.1",
         "version_updated": "2026-08-11",
         "released": "2012-09-18",
@@ -61,10 +61,10 @@
         "developer": "BananaGlue GmbH",
         "rating": 4.7,
         "rating_count": 738,
-        "version": "4.1.1",
-        "version_updated": "2026-08-08",
+        "version": "4.1.2",
+        "version_updated": "2026-08-12",
         "released": "2009-04-10",
-        "size_mb": 75.6,
+        "size_mb": 75.7,
         "min_ios": "15.0",
         "ipad": true
       }
@@ -95,11 +95,11 @@
       "auto": {
         "developer": "BananaGlue GmbH",
         "rating": 4.54,
-        "rating_count": 2538,
-        "version": "4.1.1",
-        "version_updated": "2026-08-08",
+        "rating_count": 2542,
+        "version": "4.1.2",
+        "version_updated": "2026-08-12",
         "released": "2010-01-07",
-        "size_mb": 75.7,
+        "size_mb": 75.8,
         "min_ios": "15.0",
         "ipad": true
       }
@@ -113,8 +113,8 @@
         "developer": "Fogarty Holdings LLC",
         "rating": 5,
         "rating_count": 2,
-        "version": "1.11.8",
-        "version_updated": "2026-08-10",
+        "version": "1.11.11",
+        "version_updated": "2026-08-18",
         "released": "2026-04-24",
         "size_mb": 7.9,
         "min_ios": "17.0",
@@ -129,11 +129,11 @@
       "auto": {
         "developer": "Quizlet Inc",
         "rating": 4.78,
-        "rating_count": 1100101,
-        "version": "10.47",
-        "version_updated": "2026-08-11",
+        "rating_count": 1103165,
+        "version": "10.48",
+        "version_updated": "2026-08-18",
         "released": "2012-08-09",
-        "size_mb": 267.9,
+        "size_mb": 269.2,
         "min_ios": "17",
         "ipad": true
       }
@@ -147,11 +147,11 @@
       "auto": {
         "developer": "Bold Learning Solutions, Inc.",
         "rating": 4.76,
-        "rating_count": 21144,
-        "version": "4.20260722",
-        "version_updated": "2026-07-31",
+        "rating_count": 21187,
+        "version": "4.20260805",
+        "version_updated": "2026-08-17",
         "released": "2011-07-15",
-        "size_mb": 42.5,
+        "size_mb": 43.8,
         "min_ios": "16.6",
         "ipad": true
       }
@@ -164,7 +164,7 @@
       "auto": {
         "developer": "Anki Software LLC",
         "rating": 4.04,
-        "rating_count": 2314,
+        "rating_count": 2318,
         "version": "25.09",
         "version_updated": "2025-09-08",
         "released": "2010-05-27",
@@ -180,12 +180,12 @@
       "price_display": "Free to download; Pro $8/month or $96 billed yearly, Pro with AI $18/month or $216 billed yearly, per RemNote’s pricing page on 2026-08-08",
       "auto": {
         "developer": "RemNote, LLC",
-        "rating": 4.85,
-        "rating_count": 1470,
-        "version": "1.27.30",
-        "version_updated": "2026-08-11",
+        "rating": 4.84,
+        "rating_count": 1485,
+        "version": "1.28.0",
+        "version_updated": "2026-08-17",
         "released": "2023-01-22",
-        "size_mb": 173.2,
+        "size_mb": 175.2,
         "min_ios": "16.5",
         "ipad": true
       }
@@ -216,10 +216,10 @@
         "developer": "Pocket Prep, Inc.",
         "rating": 4.8,
         "rating_count": 5034,
-        "version": "3.28.1",
-        "version_updated": "2026-08-04",
+        "version": "3.29.0",
+        "version_updated": "2026-08-20",
         "released": "2020-04-20",
-        "size_mb": 91.8,
+        "size_mb": 102.7,
         "min_ios": "18.0",
         "ipad": true
       }
@@ -232,11 +232,11 @@
       "auto": {
         "developer": "Knowt Inc.",
         "rating": 4.73,
-        "rating_count": 10242,
-        "version": "3.19.0",
-        "version_updated": "2026-08-05",
+        "rating_count": 10291,
+        "version": "3.20.0",
+        "version_updated": "2026-08-19",
         "released": "2023-10-13",
-        "size_mb": 228.6,
+        "size_mb": 229.3,
         "min_ios": "16.4",
         "ipad": true
       }
@@ -249,7 +249,7 @@
       "auto": {
         "developer": "MileIQ Inc.",
         "rating": 4.77,
-        "rating_count": 110497,
+        "rating_count": 111059,
         "version": "5.66.0",
         "version_updated": "2026-07-10",
         "released": "2013-01-15",
@@ -267,7 +267,7 @@
       "auto": {
         "developer": "Stride Health, Inc",
         "rating": 4.84,
-        "rating_count": 94602,
+        "rating_count": 95135,
         "version": "26.5.0",
         "version_updated": "2026-07-30",
         "released": "2015-10-12",
@@ -284,7 +284,7 @@
       "auto": {
         "developer": "Everlance Inc.",
         "rating": 4.83,
-        "rating_count": 51321,
+        "rating_count": 51531,
         "version": "5.5.1",
         "version_updated": "2026-08-11",
         "released": "2015-08-21",
@@ -301,7 +301,7 @@
       "auto": {
         "developer": "Driversnote ApS",
         "rating": 4.78,
-        "rating_count": 38249,
+        "rating_count": 38380,
         "version": "4.28.4",
         "version_updated": "2026-07-04",
         "released": "2014-11-18",
@@ -319,11 +319,11 @@
       "auto": {
         "developer": "Octopusapp Inc",
         "rating": 4.81,
-        "rating_count": 20444,
-        "version": "6.89.0",
-        "version_updated": "2026-08-04",
+        "rating_count": 20530,
+        "version": "6.90.0",
+        "version_updated": "2026-08-12",
         "released": "2015-08-21",
-        "size_mb": 243.0,
+        "size_mb": 243.1,
         "min_ios": "16.2",
         "ipad": true
       }
@@ -337,11 +337,11 @@
       "auto": {
         "developer": "Codefied Inc.",
         "rating": 4.65,
-        "rating_count": 28501,
-        "version": "2026.8.6",
-        "version_updated": "2026-08-10",
+        "rating_count": 28857,
+        "version": "2026.8.18",
+        "version_updated": "2026-08-20",
         "released": "2013-09-01",
-        "size_mb": 596.5,
+        "size_mb": 608.1,
         "min_ios": "16.0",
         "ipad": true
       }
@@ -371,7 +371,7 @@
       "auto": {
         "developer": "Cloze, Inc.",
         "rating": 4.65,
-        "rating_count": 2772,
+        "rating_count": 2783,
         "version": "2026.5",
         "version_updated": "2026-05-18",
         "released": "2013-02-19",
@@ -389,11 +389,11 @@
       "auto": {
         "developer": "zaal LLC",
         "rating": 4.73,
-        "rating_count": 2361,
-        "version": "7.0.2",
-        "version_updated": "2026-08-12",
+        "rating_count": 2386,
+        "version": "7.0.5",
+        "version_updated": "2026-08-18",
         "released": "2009-09-14",
-        "size_mb": 75.7,
+        "size_mb": 75.8,
         "min_ios": "17.0",
         "ipad": true
       }
@@ -407,11 +407,11 @@
       "auto": {
         "developer": "Dana HQ, Inc.",
         "rating": 4.41,
-        "rating_count": 246,
-        "version": "3.67.0",
-        "version_updated": "2026-08-08",
+        "rating_count": 249,
+        "version": "3.70.0",
+        "version_updated": "2026-08-20",
         "released": "2021-03-30",
-        "size_mb": 176.3,
+        "size_mb": 172.2,
         "min_ios": "18.0",
         "ipad": true
       }
@@ -425,7 +425,7 @@
       "auto": {
         "developer": "Clay Software, Inc.",
         "rating": 4.42,
-        "rating_count": 759,
+        "rating_count": 760,
         "version": "2026.5.1",
         "version_updated": "2026-08-07",
         "released": "2019-11-07",
@@ -443,7 +443,7 @@
       "auto": {
         "developer": "FullContact Inc.",
         "rating": 4.55,
-        "rating_count": 5806,
+        "rating_count": 5807,
         "version": "26.06.0",
         "version_updated": "2026-06-03",
         "released": "2012-12-06",
@@ -478,11 +478,46 @@
         "developer": "Fogarty Holdings LLC",
         "rating": 5,
         "rating_count": 3,
-        "version": "1.6.1",
-        "version_updated": "2026-07-26",
+        "version": "1.7",
+        "version_updated": "2026-08-14",
         "released": "2026-04-25",
-        "size_mb": 3.6,
+        "size_mb": 3.8,
         "min_ios": "17.0",
+        "ipad": true
+      }
+    },
+    "todoist": {
+      "display_name": "Todoist",
+      "data_app": "Todoist",
+      "track_id": 572688855,
+      "price_display": "Free on the Beginner plan; Pro $7/month or $60/year; Business $10/user per month or $8/user per month billed yearly, per Todoist’s pricing FAQ on 2026-08-21",
+      "auto": {
+        "developer": "Todoist Inc.",
+        "rating": 4.8,
+        "rating_count": 128135,
+        "version": "26.8.11",
+        "version_updated": "2026-08-17",
+        "released": "2012-11-18",
+        "size_mb": 349.6,
+        "min_ios": "17.0",
+        "ipad": true
+      }
+    },
+    "ticktick": {
+      "display_name": "TickTick",
+      "data_app": "TickTick",
+      "developer_display": "Appest",
+      "track_id": 626144601,
+      "price_display": "Free; Premium US$49.99 a year, per TickTick’s upgrade page on 2026-08-21",
+      "auto": {
+        "developer": "Appest Limited",
+        "rating": 4.86,
+        "rating_count": 45151,
+        "version": "8.1.51",
+        "version_updated": "2026-08-20",
+        "released": "2013-06-19",
+        "size_mb": 325.1,
+        "min_ios": "15.5",
         "ipad": true
       }
     }
@@ -555,6 +590,10 @@
     "referra-vs-contacts-journal.html": [
       "referra",
       "contacts-journal"
+    ],
+    "todoist-vs-ticktick.html": [
+      "todoist",
+      "ticktick"
     ]
   }
 }
