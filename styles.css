@@ -446,6 +446,15 @@ h1 {
 .card p:last-child { margin-bottom: 0; }
 .card .card-lead { color: var(--ink); }
 
+.store, .card .store {
+  margin: 14px 0 0;
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.55;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+
 .pull {
   margin: 28px 0 0;
   padding: 0 0 0 15px;
