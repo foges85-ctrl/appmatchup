@@ -399,11 +399,27 @@ h1 {
 
 .hero-art { margin-top: 40px; }
 
-.sweep {
+.trace {
   display: block;
   width: 100%;
   height: auto;
+
+  /* Two mid-greys the site palette has no variable for. --tr-faint is
+     the same grey the previous hero graphic used for its plain dots. */
+  --tr-faint: #3a3a3e;
+  --tr-line:  #55555a;
 }
+
+.tr-axis   { stroke: var(--rule); }
+.tr-axis-y { stroke: var(--rule-soft); }
+
+.tr-measure { stroke: var(--tr-faint); }
+
+.tr-trace       { stroke: var(--tr-line); }
+.tr-trace.tr-t2 { stroke: var(--accent); }
+
+.tr-p1, .tr-p2, .tr-p3 { fill: var(--accent); }
+.tr-p4, .tr-p5, .tr-p6 { fill: var(--bg); stroke: var(--muted); stroke-width: 2; }
 
 /* ============================================================
    COMPARISON PAGE — metadata strip, summary cards, pull-quote
@@ -520,35 +536,47 @@ h1 {
   transition-delay: var(--d, 0s);
 }
 
-/* ---------- homepage sweep graphic ---------- */
+/* ---------- homepage dual-trace graphic ---------- */
+/* Every hidden state lives inside a keyframe, so switching the
+   animations off leaves the graphic at its final, visible state. */
 
-.sweep path {
-  stroke-dasharray: 600;
-  stroke-dashoffset: 600;
-  animation: sweepDraw 1.5s ease-out forwards;
+.tr-axis { animation: trFade .25s ease-out both; }
+
+.tr-trace { animation: trDraw .6s cubic-bezier(.3,.9,.4,1) .1s both; }
+
+.tr-measure { animation: trFade .3s ease-out both; }
+.tr-m1 { animation-delay: .30s; }
+.tr-m2 { animation-delay: .40s; }
+.tr-m3 { animation-delay: .50s; }
+
+.tr-pt {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: trPop .28s ease-out both;
 }
 
-.sweep .base {
-  stroke-dasharray: none;
-  stroke-dashoffset: 0;
-  animation: none;
+.tr-p1 { animation-delay: .42s; }
+.tr-p4 { animation-delay: .46s; }
+.tr-p2 { animation-delay: .52s; }
+.tr-p5 { animation-delay: .56s; }
+.tr-p3 { animation-delay: .62s; }
+.tr-p6 { animation-delay: .66s; }
+
+@keyframes trFade { from { opacity: 0; } to { opacity: 1; } }
+
+/* pathLength="1", so a single 1-unit dash spans the whole trace */
+@keyframes trDraw {
+  from { stroke-dasharray: 1; stroke-dashoffset: 1; }
+  to   { stroke-dasharray: 1; stroke-dashoffset: 0; }
 }
 
-@keyframes sweepDraw { to { stroke-dashoffset: 0; } }
-
-.sweep .sweep-dot, .sweep .link {
-  opacity: 0;
-  animation: sweepIn .5s ease-out forwards;
+@keyframes trPop {
+  from { opacity: 0; transform: scale(.4); }
+  70%  { opacity: 1; transform: scale(1.08); }
+  to   { opacity: 1; transform: scale(1); }
 }
-
-/* .link is a <path>, so it inherits the 600-unit dash pattern above;
-   restore its own dashes and offset or it never becomes visible. */
-.sweep .link { stroke-dasharray: 2 5; stroke-dashoffset: 0; }
-
-@keyframes sweepIn { to { opacity: 1; } }
 
 @media (prefers-reduced-motion: reduce) {
   .js .rise, .js .rise.in { opacity: 1; transform: none; transition: none; }
-  .sweep path, .sweep .sweep-dot, .sweep .link { animation: none !important;
-    stroke-dashoffset: 0 !important; opacity: 1 !important; }
+  .tr-axis, .tr-measure, .tr-trace, .tr-pt { animation: none !important; }
 }
