@@ -501,7 +501,7 @@ h1 {
   /* two-column hero: copy | graphic */
   .hero .wrap {
     display: grid;
-    grid-template-columns: 1fr 0.85fr;
+    grid-template-columns: 0.9fr 0.95fr;
     gap: 28px;
     align-items: center;
   }
