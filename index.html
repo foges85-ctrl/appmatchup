@@ -61,12 +61,30 @@
      aria-label="Two signal traces measured at the same three points">
   <line class="tr-axis" x1="50" y1="420" x2="680" y2="420" stroke-width="1.5"/>
   <line class="tr-axis tr-axis-y" x1="50" y1="90" x2="50" y2="420" stroke-width="1.5"/>
+  <defs>
+    <linearGradient class="tr-grad" id="trFill" x1="0" y1="0" x2="0" y2="1">
+      <stop class="tr-stop tr-stop-a" offset="0"/>
+      <stop class="tr-stop tr-stop-b" offset="1"/>
+    </linearGradient>
+  </defs>
+  <line class="tr-grid" x1="50" y1="150" x2="680" y2="150"/>
+  <line class="tr-grid" x1="50" y1="240" x2="680" y2="240"/>
+  <line class="tr-grid" x1="50" y1="330" x2="680" y2="330"/>
+  <path class="tr-bg" d="M 50 300 C 180 292, 340 250, 480 225 C 560 211, 630 203, 680 198"/>
+  <path class="tr-bg" d="M 50 130 C 170 140, 330 175, 470 210 C 560 232, 630 248, 680 258"/>
+  <path class="tr-fill" d="M 50 362 C 130 348, 180 322, 240 285 C 310 242, 355 200, 420 170 C 480 148, 530 136, 580 128 C 620 122, 650 118, 680 114 L 680 420 L 50 420 Z"/>
   <line class="tr-measure tr-m1" x1="240" y1="100" x2="240" y2="420" stroke-width="1" stroke-dasharray="2 6"/>
   <line class="tr-measure tr-m2" x1="420" y1="100" x2="420" y2="420" stroke-width="1" stroke-dasharray="2 6"/>
   <line class="tr-measure tr-m3" x1="580" y1="100" x2="580" y2="420" stroke-width="1" stroke-dasharray="2 6"/>
-  <path class="tr-trace tr-t1" pathLength="1" fill="none" stroke-width="2"
+  <line class="tr-tick" x1="240" y1="420" x2="240" y2="427"/>
+  <line class="tr-tick" x1="420" y1="420" x2="420" y2="427"/>
+  <line class="tr-tick" x1="580" y1="420" x2="580" y2="427"/>
+  <text class="tr-lab" x="233" y="434">01</text>
+  <text class="tr-lab" x="413" y="434">02</text>
+  <text class="tr-lab" x="573" y="434">03</text>
+  <path class="tr-trace tr-t1" pathLength="1" fill="none" stroke-width="2.5"
         d="M 50 195 C 150 200, 190 205, 240 215 C 330 233, 350 244, 420 262 C 490 280, 520 288, 580 300 C 630 310, 655 314, 680 318"/>
-  <path class="tr-trace tr-t2" pathLength="1" fill="none" stroke-width="2"
+  <path class="tr-trace tr-t2" pathLength="1" fill="none" stroke-width="2.5"
         d="M 50 362 C 130 348, 180 322, 240 285 C 310 242, 355 200, 420 170 C 480 148, 530 136, 580 128 C 620 122, 650 118, 680 114"/>
   <circle class="tr-pt tr-p1" cx="240" cy="285" r="5.5"/>
   <circle class="tr-pt tr-p2" cx="420" cy="170" r="5.5"/>

@@ -418,6 +418,25 @@ h1 {
 .tr-trace       { stroke: var(--tr-line); }
 .tr-trace.tr-t2 { stroke: var(--accent); }
 
+/* background density: gridlines, ghost traces, area fill, baseline ticks */
+.tr-grid { stroke: #1a1a1d; stroke-width: 1; }
+.tr-bg   { stroke: #1f1f23; stroke-width: 1.5; fill: none; }
+.tr-fill { fill: url(#trFill); stroke: none; }
+.tr-tick { stroke: var(--tr-line); stroke-width: 1.5; }
+
+/* the gradient's amber comes from the site palette; the label grey sits
+   between --tr-line and --muted and has no variable of its own. */
+.tr-stop   { stop-color: var(--accent); }
+.tr-stop-a { stop-opacity: 0.13; }
+.tr-stop-b { stop-opacity: 0; }
+
+.tr-lab {
+  fill: #6a6a70;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
 .tr-p1, .tr-p2, .tr-p3 { fill: var(--accent); }
 .tr-p4, .tr-p5, .tr-p6 { fill: var(--bg); stroke: var(--muted); stroke-width: 2; }
 
@@ -540,7 +559,9 @@ h1 {
 /* Every hidden state lives inside a keyframe, so switching the
    animations off leaves the graphic at its final, visible state. */
 
-.tr-axis { animation: trFade .25s ease-out both; }
+.tr-axis, .tr-grid, .tr-bg, .tr-fill, .tr-tick, .tr-lab {
+  animation: trFade .25s ease-out both;
+}
 
 .tr-trace { animation: trDraw .6s cubic-bezier(.3,.9,.4,1) .1s both; }
 
@@ -578,5 +599,6 @@ h1 {
 
 @media (prefers-reduced-motion: reduce) {
   .js .rise, .js .rise.in { opacity: 1; transform: none; transition: none; }
-  .tr-axis, .tr-measure, .tr-trace, .tr-pt { animation: none !important; }
+  .tr-axis, .tr-grid, .tr-bg, .tr-fill, .tr-tick, .tr-lab,
+  .tr-measure, .tr-trace, .tr-pt { animation: none !important; }
 }
