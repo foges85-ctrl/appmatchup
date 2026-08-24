@@ -658,6 +658,57 @@
         "min_ios": "17.0",
         "ipad": true
       }
+    },
+    "carrot-weather": {
+      "display_name": "CARROT Weather",
+      "data_app": "CARROT Weather",
+      "track_id": 961390574,
+      "price_display": "Free to download with in-app purchases; Grailr’s FAQ describes three subscription levels without naming a price, and the figures on its press kit are attached to a past release, per both pages on 2026-08-24",
+      "auto": {
+        "developer": "Grailr LLC",
+        "rating": 4.7,
+        "rating_count": 86804,
+        "version": "6.8.0",
+        "version_updated": "2026-08-06",
+        "released": "2015-03-19",
+        "size_mb": 423.5,
+        "min_ios": "15.0",
+        "ipad": true
+      }
+    },
+    "weather-underground": {
+      "display_name": "Weather Underground",
+      "data_app": "Weather Underground",
+      "track_id": 486154808,
+      "price_display": "Free to download and ad-supported; WU Premium $3.99/month or $19.99/year, WU Ad-Free $1.99/year, per its App Store listing on 2026-08-24",
+      "auto": {
+        "developer": "Weather Underground, LLC",
+        "rating": 3.91,
+        "rating_count": 31637,
+        "version": "6.21",
+        "version_updated": "2025-06-30",
+        "released": "2011-12-21",
+        "size_mb": 94.6,
+        "min_ios": "14.0",
+        "ipad": true
+      }
+    },
+    "hello-weather": {
+      "display_name": "Hello Weather",
+      "data_app": "Hello Weather",
+      "track_id": 978393692,
+      "price_display": "Free to download with in-app purchases; Pro $1.99/month, $19.99/year or $99.99 once, and Pro Family $2.99/month, $29.99/year or $149.99 once, per its App Store listing on 2026-08-24",
+      "auto": {
+        "developer": "Electric Dream Machine LLC",
+        "rating": 4.7,
+        "rating_count": 9452,
+        "version": "26.6.5",
+        "version_updated": "2026-08-18",
+        "released": "2016-01-12",
+        "size_mb": 332.9,
+        "min_ios": "17.0",
+        "ipad": true
+      }
     }
   },
   "pages": {
@@ -752,6 +803,14 @@
     "tagsweep-vs-sortly.html": [
       "tagsweep",
       "sortly"
+    ],
+    "carrot-weather-vs-weather-underground.html": [
+      "carrot-weather",
+      "weather-underground"
+    ],
+    "carrot-weather-vs-hello-weather.html": [
+      "carrot-weather",
+      "hello-weather"
     ]
   }
 }
