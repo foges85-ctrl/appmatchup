@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25",
+  "fetched_at": "2026-08-26",
   "apps": {
     "fing": {
       "display_name": "Fing",
@@ -9,7 +9,7 @@
       "auto": {
         "developer": "Fing Limited",
         "rating": 4.65,
-        "rating_count": 115892,
+        "rating_count": 115906,
         "version": "12.13.2",
         "version_updated": "2026-07-23",
         "released": "2011-04-19",
@@ -26,7 +26,7 @@
       "auto": {
         "developer": "Ubiquiti Inc.",
         "rating": 4.8,
-        "rating_count": 39504,
+        "rating_count": 39525,
         "version": "1.37.1",
         "version_updated": "2026-07-28",
         "released": "2018-08-04",
@@ -43,7 +43,7 @@
       "auto": {
         "developer": "Jiri Techet",
         "rating": 4.79,
-        "rating_count": 9091,
+        "rating_count": 9096,
         "version": "9.1",
         "version_updated": "2026-08-11",
         "released": "2012-09-18",
@@ -78,7 +78,7 @@
       "auto": {
         "developer": "MATIA LABS, INC.",
         "rating": 4.64,
-        "rating_count": 885,
+        "rating_count": 884,
         "version": "6.37",
         "version_updated": "2026-08-11",
         "released": "2022-10-21",
@@ -95,7 +95,7 @@
       "auto": {
         "developer": "BananaGlue GmbH",
         "rating": 4.54,
-        "rating_count": 2542,
+        "rating_count": 2543,
         "version": "4.1.2",
         "version_updated": "2026-08-12",
         "released": "2010-01-07",
@@ -129,11 +129,11 @@
       "auto": {
         "developer": "Quizlet Inc",
         "rating": 4.78,
-        "rating_count": 1104441,
-        "version": "10.48",
-        "version_updated": "2026-08-18",
+        "rating_count": 1104904,
+        "version": "10.49",
+        "version_updated": "2026-08-26",
         "released": "2012-08-09",
-        "size_mb": 269.2,
+        "size_mb": 269.8,
         "min_ios": "17",
         "ipad": true
       }
@@ -147,7 +147,7 @@
       "auto": {
         "developer": "Bold Learning Solutions, Inc.",
         "rating": 4.76,
-        "rating_count": 21201,
+        "rating_count": 21207,
         "version": "4.20260805",
         "version_updated": "2026-08-17",
         "released": "2011-07-15",
@@ -164,7 +164,7 @@
       "auto": {
         "developer": "Anki Software LLC",
         "rating": 4.04,
-        "rating_count": 2319,
+        "rating_count": 2320,
         "version": "25.09",
         "version_updated": "2025-09-08",
         "released": "2010-05-27",
@@ -181,7 +181,7 @@
       "auto": {
         "developer": "RemNote, LLC",
         "rating": 4.84,
-        "rating_count": 1490,
+        "rating_count": 1498,
         "version": "1.28.0",
         "version_updated": "2026-08-17",
         "released": "2023-01-22",
@@ -215,7 +215,7 @@
       "auto": {
         "developer": "Pocket Prep, Inc.",
         "rating": 4.8,
-        "rating_count": 5034,
+        "rating_count": 5035,
         "version": "3.29.0",
         "version_updated": "2026-08-20",
         "released": "2020-04-20",
@@ -232,11 +232,11 @@
       "auto": {
         "developer": "Knowt Inc.",
         "rating": 4.73,
-        "rating_count": 10321,
-        "version": "3.20.0",
-        "version_updated": "2026-08-19",
+        "rating_count": 10333,
+        "version": "3.21.0",
+        "version_updated": "2026-08-26",
         "released": "2023-10-13",
-        "size_mb": 229.3,
+        "size_mb": 209.6,
         "min_ios": "16.4",
         "ipad": true
       }
@@ -249,7 +249,7 @@
       "auto": {
         "developer": "MileIQ Inc.",
         "rating": 4.77,
-        "rating_count": 111233,
+        "rating_count": 111297,
         "version": "5.66.1",
         "version_updated": "2026-08-25",
         "released": "2013-01-15",
@@ -267,7 +267,7 @@
       "auto": {
         "developer": "Stride Health, Inc",
         "rating": 4.84,
-        "rating_count": 95307,
+        "rating_count": 95360,
         "version": "26.5.0",
         "version_updated": "2026-07-30",
         "released": "2015-10-12",
@@ -284,7 +284,7 @@
       "auto": {
         "developer": "Everlance Inc.",
         "rating": 4.83,
-        "rating_count": 51611,
+        "rating_count": 51635,
         "version": "5.5.1",
         "version_updated": "2026-08-11",
         "released": "2015-08-21",
@@ -301,7 +301,7 @@
       "auto": {
         "developer": "Driversnote ApS",
         "rating": 4.78,
-        "rating_count": 38440,
+        "rating_count": 38442,
         "version": "4.29.0",
         "version_updated": "2026-08-23",
         "released": "2014-11-18",
@@ -319,7 +319,7 @@
       "auto": {
         "developer": "Octopusapp Inc",
         "rating": 4.81,
-        "rating_count": 20564,
+        "rating_count": 20578,
         "version": "6.91.0",
         "version_updated": "2026-08-24",
         "released": "2015-08-21",
@@ -337,7 +337,7 @@
       "auto": {
         "developer": "Codefied Inc.",
         "rating": 4.65,
-        "rating_count": 28947,
+        "rating_count": 29003,
         "version": "2026.8.18",
         "version_updated": "2026-08-20",
         "released": "2013-09-01",
@@ -355,8 +355,8 @@
         "developer": "Fogarty Holdings LLC",
         "rating": 5,
         "rating_count": 2,
-        "version": "1.0.5",
-        "version_updated": "2026-08-11",
+        "version": "1.0.6",
+        "version_updated": "2026-08-25",
         "released": "2026-05-07",
         "size_mb": 12.4,
         "min_ios": "17.0",
@@ -408,8 +408,8 @@
         "developer": "Dana HQ, Inc.",
         "rating": 4.41,
         "rating_count": 249,
-        "version": "3.70.0",
-        "version_updated": "2026-08-20",
+        "version": "3.71.0",
+        "version_updated": "2026-08-25",
         "released": "2021-03-30",
         "size_mb": 172.2,
         "min_ios": "18.0",
@@ -443,7 +443,7 @@
       "auto": {
         "developer": "FullContact Inc.",
         "rating": 4.55,
-        "rating_count": 5807,
+        "rating_count": 5808,
         "version": "26.06.0",
         "version_updated": "2026-06-03",
         "released": "2012-12-06",
@@ -494,7 +494,7 @@
       "auto": {
         "developer": "Todoist Inc.",
         "rating": 4.8,
-        "rating_count": 128234,
+        "rating_count": 128269,
         "version": "26.8.18",
         "version_updated": "2026-08-24",
         "released": "2012-11-18",
@@ -512,7 +512,7 @@
       "auto": {
         "developer": "Appest Limited",
         "rating": 4.86,
-        "rating_count": 45237,
+        "rating_count": 45269,
         "version": "8.1.52",
         "version_updated": "2026-08-25",
         "released": "2013-06-19",
@@ -529,7 +529,7 @@
       "auto": {
         "developer": "Apple Inc.",
         "rating": 4.83,
-        "rating_count": 985188,
+        "rating_count": 986163,
         "version": "2.0",
         "version_updated": "2025-12-12",
         "released": "2016-05-23",
@@ -546,11 +546,11 @@
       "auto": {
         "developer": "Google LLC",
         "rating": 4.8,
-        "rating_count": 105887,
-        "version": "26.33.0",
-        "version_updated": "2026-08-20",
+        "rating_count": 105910,
+        "version": "26.34.0",
+        "version_updated": "2026-08-26",
         "released": "2018-04-27",
-        "size_mb": 165.9,
+        "size_mb": 166.9,
         "min_ios": "17.0",
         "ipad": true
       }
@@ -563,7 +563,7 @@
       "auto": {
         "developer": "Microsoft Corporation",
         "rating": 4.72,
-        "rating_count": 265749,
+        "rating_count": 265825,
         "version": "2.177",
         "version_updated": "2026-07-06",
         "released": "2017-04-19",
@@ -580,7 +580,7 @@
       "auto": {
         "developer": "unorderly GmbH",
         "rating": 4.79,
-        "rating_count": 164686,
+        "rating_count": 164760,
         "version": "4.5.4",
         "version_updated": "2026-08-21",
         "released": "2020-04-09",
@@ -597,11 +597,11 @@
       "auto": {
         "developer": "Sortly Inc.",
         "rating": 4.73,
-        "rating_count": 9445,
-        "version": "10.26.0",
-        "version_updated": "2026-08-19",
+        "rating_count": 9447,
+        "version": "10.26.1",
+        "version_updated": "2026-08-26",
         "released": "2012-06-05",
-        "size_mb": 77.0,
+        "size_mb": 57.3,
         "min_ios": "18.5",
         "ipad": true
       }
@@ -667,7 +667,7 @@
       "auto": {
         "developer": "Grailr LLC",
         "rating": 4.7,
-        "rating_count": 86814,
+        "rating_count": 86824,
         "version": "6.8.0",
         "version_updated": "2026-08-06",
         "released": "2015-03-19",
@@ -684,7 +684,7 @@
       "auto": {
         "developer": "Weather Underground, LLC",
         "rating": 3.91,
-        "rating_count": 31639,
+        "rating_count": 31640,
         "version": "6.21",
         "version_updated": "2025-06-30",
         "released": "2011-12-21",
@@ -701,12 +701,80 @@
       "auto": {
         "developer": "Electric Dream Machine LLC",
         "rating": 4.7,
-        "rating_count": 9454,
+        "rating_count": 9457,
         "version": "26.6.5",
         "version_updated": "2026-08-18",
         "released": "2016-01-12",
         "size_mb": 332.9,
         "min_ios": "17.0",
+        "ipad": true
+      }
+    },
+    "swiftscan": {
+      "display_name": "SwiftScan",
+      "data_app": "SwiftScan",
+      "track_id": 834854351,
+      "price_display": "Free to download; the developer publishes no prices. The App Store in-app-purchase list shows SwiftScan VIP at $5.99/month or $34.99/year and SwiftScan Plus at $7.99 or $9.99/month and $59.99/year, read on 2026-08-26",
+      "auto": {
+        "developer": "Maple Media Apps, LLC",
+        "rating": 4.76,
+        "rating_count": 18937,
+        "version": "9.6.81",
+        "version_updated": "2026-06-18",
+        "released": "2014-04-03",
+        "size_mb": 502.2,
+        "min_ios": "15.0",
+        "ipad": true
+      }
+    },
+    "genius-scan": {
+      "display_name": "Genius Scan",
+      "data_app": "Genius Scan",
+      "track_id": 377672876,
+      "price_display": "Free to download; Ultra $39.99/year, Teams from $40 to $20 per license/year, per The Grizzly Labs’ pricing page on 2026-08-26",
+      "auto": {
+        "developer": "The Grizzly Labs",
+        "rating": 4.9,
+        "rating_count": 1355445,
+        "version": "8.13.1",
+        "version_updated": "2026-07-22",
+        "released": "2010-06-22",
+        "size_mb": 101.6,
+        "min_ios": "17.0",
+        "ipad": true
+      }
+    },
+    "adobe-scan": {
+      "display_name": "Adobe Scan",
+      "data_app": "Adobe Scan",
+      "track_id": 1199564834,
+      "price_display": "Free to download; Adobe publishes no price for Adobe Scan. The App Store in-app-purchase list shows Adobe Scan Premium items from $3.99 to $69.99 and Adobe Scan Plus at $4.99/month or $19.99/year, read on 2026-08-26",
+      "auto": {
+        "developer": "Adobe Inc.",
+        "rating": 4.88,
+        "rating_count": 1582073,
+        "version": "26.08.12",
+        "version_updated": "2026-08-12",
+        "released": "2017-05-31",
+        "size_mb": 415.3,
+        "min_ios": "18.0",
+        "ipad": true
+      }
+    },
+    "camscanner": {
+      "display_name": "CamScanner",
+      "data_app": "CamScanner",
+      "track_id": 388627783,
+      "price_display": "Free to download; INTSIG publishes no prices. The App Store in-app-purchase list shows Premium Account at $9.99/month and $59.99/year, and CamScanner Premium items at $6.99, $49.99 and $69.99, read on 2026-08-26",
+      "auto": {
+        "developer": "INTSIG Information Co., Ltd",
+        "rating": 4.85,
+        "rating_count": 1876269,
+        "version": "7.24.0",
+        "version_updated": "2026-08-18",
+        "released": "2010-08-28",
+        "size_mb": 386.9,
+        "min_ios": "13.0",
         "ipad": true
       }
     }
@@ -811,6 +879,14 @@
     "carrot-weather-vs-hello-weather.html": [
       "carrot-weather",
       "hello-weather"
+    ],
+    "swiftscan-vs-genius-scan.html": [
+      "swiftscan",
+      "genius-scan"
+    ],
+    "adobe-scan-vs-camscanner.html": [
+      "adobe-scan",
+      "camscanner"
     ]
   }
 }
