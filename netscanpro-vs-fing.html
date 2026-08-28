@@ -47,7 +47,7 @@
   "description": "NetScanPro versus Fing, compared from published sources: pricing model, scan limits, data collection and what each free tier includes. NetScanPro is published by Fogarty Holdings LLC, which also operates AppMatchup.",
   "url": "https://appmatchup.com/netscanpro-vs-fing.html",
   "mainEntityOfPage": "https://appmatchup.com/netscanpro-vs-fing.html",
-  "dateModified": "2026-08-22",
+  "dateModified": "2026-08-28",
   "inLanguage": "en-US",
   "isAccessibleForFree": true,
   "image": "https://appmatchup.com/og-image.png",
@@ -218,7 +218,7 @@
           </tr>
           <tr>
             <th scope="row">Device identification</th>
-            <td data-app="NetScanPro">Bonjour records, UPnP announcements and open-port patterns, plus MAC vendor prefixes for devices that broadcast one, such as AirPlay and Chromecast hardware, matched against an offline IEEE database. Every identification carries a confidence level, and devices that share nothing identifiable stay unlabelled rather than guessed at</td>
+            <td data-app="NetScanPro">Bonjour records, UPnP announcements and open-port patterns, plus a hardware address where one can be determined — derived from a device’s IPv6 link-local address or read from what it advertises, with the source shown per row — matched to its manufacturer against an offline IEEE database. Not available for every device, and it yields the maker only. Every identification carries a confidence level, and devices that share nothing identifiable stay unlabelled rather than guessed at</td>
             <td data-app="Fing">Device recognition the developer describes as patented</td>
           </tr>
           <tr>
@@ -257,7 +257,7 @@
       <ul class="list">
         <li>Whether Fing&rsquo;s free plan can be used without creating an account</li>
         <li>What Fing&rsquo;s device recognition patent covers, which its App Store description asserts without detail</li>
-        <li>How many devices on a typical network broadcast a MAC address NetScanPro can read; iOS restricts access to the address table, so this depends entirely on the mix of devices present</li>
+        <li>How many devices on a typical network yield a MAC address NetScanPro can read by either route — derived from an IPv6 link-local address, or advertised by the device; iOS restricts access to the address table, so this depends entirely on the mix of devices present</li>
         <li>What Fing&rsquo;s paid open-ports finder adds over the free one, beyond the pricing page labelling them basic and advanced</li>
         <li>How either app&rsquo;s identification performs in practice, which no published source establishes</li>
       </ul>

@@ -81,9 +81,17 @@ def fetch(d):
         sys.exit(f"App Store returned nothing for: {', '.join(missing)}. Nothing written.")
 
     changes = []
+    anomalies = []
     seeded_any = False
     for key, app in d["apps"].items():
         r = results[app["track_id"]]
+        ipad_shots = bool(r.get("ipadScreenshotUrls"))
+        ipad_universal = "iosUniversal" in (r.get("features") or [])
+        if ipad_shots != ipad_universal:
+            anomalies.append(
+                f"  {app['display_name']}: iPad signals disagree — "
+                f"ipadScreenshotUrls={ipad_shots}, iosUniversal={ipad_universal}"
+            )
         new = {
             "developer": r["sellerName"],
             "rating": round(r.get("averageUserRating", 0), 2),
@@ -93,7 +101,7 @@ def fetch(d):
             "released": r.get("releaseDate", "")[:10],
             "size_mb": round(int(r.get("fileSizeBytes", 0)) / 1_000_000, 1),
             "min_ios": r.get("minimumOsVersion", ""),
-            "ipad": any("iPad" in s for s in r.get("supportedDevices", [])),
+            "ipad": ipad_shots and ipad_universal,
         }
         old = app.get("auto") or {}
         if not old:
@@ -105,6 +113,11 @@ def fetch(d):
 
     d["fetched_at"] = date.today().isoformat()
 
+    if anomalies:
+        print("iPad signal disagreement — the two signals no longer agree:")
+        print("\n".join(anomalies))
+        print("\nBoth are required, so these read No. Check the listing before")
+        print("trusting the column for them.")
     if seeded_any:
         print("Seeded data for apps that had none.")
     if changes:
