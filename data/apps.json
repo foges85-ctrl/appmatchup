@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-26",
+  "fetched_at": "2026-09-04",
   "apps": {
     "fing": {
       "display_name": "Fing",
@@ -9,7 +9,7 @@
       "auto": {
         "developer": "Fing Limited",
         "rating": 4.65,
-        "rating_count": 115906,
+        "rating_count": 116025,
         "version": "12.13.2",
         "version_updated": "2026-07-23",
         "released": "2011-04-19",
@@ -26,7 +26,7 @@
       "auto": {
         "developer": "Ubiquiti Inc.",
         "rating": 4.8,
-        "rating_count": 39525,
+        "rating_count": 39735,
         "version": "1.37.1",
         "version_updated": "2026-07-28",
         "released": "2018-08-04",
@@ -42,8 +42,8 @@
       "price_display": "$3.99 one-time",
       "auto": {
         "developer": "Jiri Techet",
-        "rating": 4.79,
-        "rating_count": 9096,
+        "rating": 4.78,
+        "rating_count": 9105,
         "version": "9.1",
         "version_updated": "2026-08-11",
         "released": "2012-09-18",
@@ -60,13 +60,13 @@
       "auto": {
         "developer": "BananaGlue GmbH",
         "rating": 4.7,
-        "rating_count": 738,
+        "rating_count": 737,
         "version": "4.1.2",
         "version_updated": "2026-08-12",
         "released": "2009-04-10",
         "size_mb": 75.7,
         "min_ios": "15.0",
-        "ipad": true
+        "ipad": false
       }
     },
     "ip-scanner": {
@@ -78,7 +78,7 @@
       "auto": {
         "developer": "MATIA LABS, INC.",
         "rating": 4.64,
-        "rating_count": 884,
+        "rating_count": 885,
         "version": "6.37",
         "version_updated": "2026-08-11",
         "released": "2022-10-21",
@@ -95,13 +95,13 @@
       "auto": {
         "developer": "BananaGlue GmbH",
         "rating": 4.54,
-        "rating_count": 2543,
+        "rating_count": 2547,
         "version": "4.1.2",
         "version_updated": "2026-08-12",
         "released": "2010-01-07",
         "size_mb": 75.8,
         "min_ios": "15.0",
-        "ipad": true
+        "ipad": false
       }
     },
     "netscanpro": {
@@ -113,10 +113,10 @@
         "developer": "Fogarty Holdings LLC",
         "rating": 5,
         "rating_count": 2,
-        "version": "1.11.13",
-        "version_updated": "2026-08-25",
+        "version": "1.11.16",
+        "version_updated": "2026-09-01",
         "released": "2026-04-24",
-        "size_mb": 7.9,
+        "size_mb": 11.4,
         "min_ios": "17.0",
         "ipad": true
       }
@@ -129,11 +129,11 @@
       "auto": {
         "developer": "Quizlet Inc",
         "rating": 4.78,
-        "rating_count": 1104904,
-        "version": "10.49",
-        "version_updated": "2026-08-26",
+        "rating_count": 1109515,
+        "version": "10.50",
+        "version_updated": "2026-09-01",
         "released": "2012-08-09",
-        "size_mb": 269.8,
+        "size_mb": 271.2,
         "min_ios": "17",
         "ipad": true
       }
@@ -147,9 +147,9 @@
       "auto": {
         "developer": "Bold Learning Solutions, Inc.",
         "rating": 4.76,
-        "rating_count": 21207,
-        "version": "4.20260805",
-        "version_updated": "2026-08-17",
+        "rating_count": 21254,
+        "version": "4.20260820",
+        "version_updated": "2026-09-02",
         "released": "2011-07-15",
         "size_mb": 43.8,
         "min_ios": "16.6",
@@ -164,7 +164,7 @@
       "auto": {
         "developer": "Anki Software LLC",
         "rating": 4.04,
-        "rating_count": 2320,
+        "rating_count": 2321,
         "version": "25.09",
         "version_updated": "2025-09-08",
         "released": "2010-05-27",
@@ -181,11 +181,11 @@
       "auto": {
         "developer": "RemNote, LLC",
         "rating": 4.84,
-        "rating_count": 1498,
-        "version": "1.28.0",
-        "version_updated": "2026-08-17",
+        "rating_count": 1532,
+        "version": "1.28.11",
+        "version_updated": "2026-09-03",
         "released": "2023-01-22",
-        "size_mb": 175.2,
+        "size_mb": 171.2,
         "min_ios": "16.5",
         "ipad": true
       }
@@ -199,10 +199,10 @@
         "developer": "Fogarty Holdings LLC",
         "rating": 5,
         "rating_count": 3,
-        "version": "1.6.1",
-        "version_updated": "2026-08-08",
+        "version": "1.7.1",
+        "version_updated": "2026-09-01",
         "released": "2026-04-09",
-        "size_mb": 5.5,
+        "size_mb": 5.4,
         "min_ios": "17.0",
         "ipad": true
       }
@@ -215,9 +215,9 @@
       "auto": {
         "developer": "Pocket Prep, Inc.",
         "rating": 4.8,
-        "rating_count": 5035,
-        "version": "3.29.0",
-        "version_updated": "2026-08-20",
+        "rating_count": 5036,
+        "version": "3.29.1",
+        "version_updated": "2026-08-31",
         "released": "2020-04-20",
         "size_mb": 102.7,
         "min_ios": "18.0",
@@ -232,11 +232,11 @@
       "auto": {
         "developer": "Knowt Inc.",
         "rating": 4.73,
-        "rating_count": 10333,
-        "version": "3.21.0",
-        "version_updated": "2026-08-26",
+        "rating_count": 10453,
+        "version": "3.22.0",
+        "version_updated": "2026-08-28",
         "released": "2023-10-13",
-        "size_mb": 209.6,
+        "size_mb": 220.1,
         "min_ios": "16.4",
         "ipad": true
       }
@@ -249,13 +249,13 @@
       "auto": {
         "developer": "MileIQ Inc.",
         "rating": 4.77,
-        "rating_count": 111297,
+        "rating_count": 112153,
         "version": "5.66.1",
         "version_updated": "2026-08-25",
         "released": "2013-01-15",
         "size_mb": 121.5,
         "min_ios": "16.0",
-        "ipad": true
+        "ipad": false
       }
     },
     "stride": {
@@ -267,11 +267,11 @@
       "auto": {
         "developer": "Stride Health, Inc",
         "rating": 4.84,
-        "rating_count": 95360,
-        "version": "26.5.0",
-        "version_updated": "2026-07-30",
+        "rating_count": 95758,
+        "version": "26.8.0",
+        "version_updated": "2026-09-01",
         "released": "2015-10-12",
-        "size_mb": 115.8,
+        "size_mb": 105.3,
         "min_ios": "16.4",
         "ipad": true
       }
@@ -284,7 +284,7 @@
       "auto": {
         "developer": "Everlance Inc.",
         "rating": 4.83,
-        "rating_count": 51635,
+        "rating_count": 51845,
         "version": "5.5.1",
         "version_updated": "2026-08-11",
         "released": "2015-08-21",
@@ -301,13 +301,13 @@
       "auto": {
         "developer": "Driversnote ApS",
         "rating": 4.78,
-        "rating_count": 38442,
+        "rating_count": 38607,
         "version": "4.29.0",
         "version_updated": "2026-08-23",
         "released": "2014-11-18",
         "size_mb": 134.9,
         "min_ios": "16.4",
-        "ipad": true
+        "ipad": false
       }
     },
     "jobber": {
@@ -319,12 +319,12 @@
       "auto": {
         "developer": "Octopusapp Inc",
         "rating": 4.81,
-        "rating_count": 20578,
-        "version": "6.91.0",
-        "version_updated": "2026-08-24",
+        "rating_count": 20749,
+        "version": "6.93.0",
+        "version_updated": "2026-09-02",
         "released": "2015-08-21",
-        "size_mb": 246.3,
-        "min_ios": "16.2",
+        "size_mb": 265.1,
+        "min_ios": "16.4",
         "ipad": true
       }
     },
@@ -337,11 +337,11 @@
       "auto": {
         "developer": "Codefied Inc.",
         "rating": 4.65,
-        "rating_count": 29003,
-        "version": "2026.8.18",
-        "version_updated": "2026-08-20",
+        "rating_count": 29396,
+        "version": "2026.9.1",
+        "version_updated": "2026-09-02",
         "released": "2013-09-01",
-        "size_mb": 608.1,
+        "size_mb": 608.7,
         "min_ios": "16.0",
         "ipad": true
       }
@@ -355,10 +355,10 @@
         "developer": "Fogarty Holdings LLC",
         "rating": 5,
         "rating_count": 2,
-        "version": "1.0.6",
-        "version_updated": "2026-08-25",
+        "version": "1.0.7",
+        "version_updated": "2026-08-26",
         "released": "2026-05-07",
-        "size_mb": 12.4,
+        "size_mb": 11.7,
         "min_ios": "17.0",
         "ipad": true
       }
@@ -371,7 +371,7 @@
       "auto": {
         "developer": "Cloze, Inc.",
         "rating": 4.65,
-        "rating_count": 2787,
+        "rating_count": 2799,
         "version": "2026.5",
         "version_updated": "2026-05-18",
         "released": "2013-02-19",
@@ -389,9 +389,9 @@
       "auto": {
         "developer": "zaal LLC",
         "rating": 4.73,
-        "rating_count": 2391,
-        "version": "7.0.5",
-        "version_updated": "2026-08-18",
+        "rating_count": 2409,
+        "version": "7.0.6",
+        "version_updated": "2026-08-30",
         "released": "2009-09-14",
         "size_mb": 75.8,
         "min_ios": "17.0",
@@ -406,8 +406,8 @@
       "price_display": "No free tier; Premium $12/month billed annually, $16 quarterly or $20 monthly, Professional $20/$27/$34, each with a 7-day trial, per Dex’s pricing page on 2026-08-12",
       "auto": {
         "developer": "Dana HQ, Inc.",
-        "rating": 4.41,
-        "rating_count": 249,
+        "rating": 4.42,
+        "rating_count": 253,
         "version": "3.71.0",
         "version_updated": "2026-08-25",
         "released": "2021-03-30",
@@ -425,7 +425,7 @@
       "auto": {
         "developer": "Clay Software, Inc.",
         "rating": 4.42,
-        "rating_count": 760,
+        "rating_count": 761,
         "version": "2026.5.1",
         "version_updated": "2026-08-07",
         "released": "2019-11-07",
@@ -443,7 +443,7 @@
       "auto": {
         "developer": "FullContact Inc.",
         "rating": 4.55,
-        "rating_count": 5808,
+        "rating_count": 5807,
         "version": "26.06.0",
         "version_updated": "2026-06-03",
         "released": "2012-12-06",
@@ -460,13 +460,13 @@
       "auto": {
         "developer": "CircleBack, Inc.",
         "rating": 4.45,
-        "rating_count": 2549,
+        "rating_count": 2548,
         "version": "3.3.8",
         "version_updated": "2026-05-18",
         "released": "2015-01-29",
         "size_mb": 123.3,
         "min_ios": "17.6",
-        "ipad": true
+        "ipad": false
       }
     },
     "referra": {
@@ -478,8 +478,8 @@
         "developer": "Fogarty Holdings LLC",
         "rating": 5,
         "rating_count": 3,
-        "version": "1.7",
-        "version_updated": "2026-08-14",
+        "version": "1.7.1",
+        "version_updated": "2026-08-30",
         "released": "2026-04-25",
         "size_mb": 3.8,
         "min_ios": "17.0",
@@ -494,11 +494,11 @@
       "auto": {
         "developer": "Todoist Inc.",
         "rating": 4.8,
-        "rating_count": 128269,
-        "version": "26.8.18",
-        "version_updated": "2026-08-24",
+        "rating_count": 128528,
+        "version": "26.8.26",
+        "version_updated": "2026-08-31",
         "released": "2012-11-18",
-        "size_mb": 352.1,
+        "size_mb": 352.4,
         "min_ios": "17.0",
         "ipad": true
       }
@@ -512,11 +512,11 @@
       "auto": {
         "developer": "Appest Limited",
         "rating": 4.86,
-        "rating_count": 45269,
-        "version": "8.1.52",
-        "version_updated": "2026-08-25",
+        "rating_count": 45490,
+        "version": "8.2.01",
+        "version_updated": "2026-09-04",
         "released": "2013-06-19",
-        "size_mb": 325.1,
+        "size_mb": 328.5,
         "min_ios": "15.5",
         "ipad": true
       }
@@ -529,7 +529,7 @@
       "auto": {
         "developer": "Apple Inc.",
         "rating": 4.83,
-        "rating_count": 986163,
+        "rating_count": 995157,
         "version": "2.0",
         "version_updated": "2025-12-12",
         "released": "2016-05-23",
@@ -546,11 +546,11 @@
       "auto": {
         "developer": "Google LLC",
         "rating": 4.8,
-        "rating_count": 105910,
-        "version": "26.34.0",
-        "version_updated": "2026-08-26",
+        "rating_count": 106160,
+        "version": "26.35.0",
+        "version_updated": "2026-09-02",
         "released": "2018-04-27",
-        "size_mb": 166.9,
+        "size_mb": 166.8,
         "min_ios": "17.0",
         "ipad": true
       }
@@ -563,7 +563,7 @@
       "auto": {
         "developer": "Microsoft Corporation",
         "rating": 4.72,
-        "rating_count": 265825,
+        "rating_count": 266366,
         "version": "2.177",
         "version_updated": "2026-07-06",
         "released": "2017-04-19",
@@ -580,11 +580,11 @@
       "auto": {
         "developer": "unorderly GmbH",
         "rating": 4.79,
-        "rating_count": 164760,
-        "version": "4.5.4",
-        "version_updated": "2026-08-21",
+        "rating_count": 165253,
+        "version": "4.5.5",
+        "version_updated": "2026-09-02",
         "released": "2020-04-09",
-        "size_mb": 331.6,
+        "size_mb": 337.4,
         "min_ios": "17.0",
         "ipad": true
       }
@@ -597,7 +597,7 @@
       "auto": {
         "developer": "Sortly Inc.",
         "rating": 4.73,
-        "rating_count": 9447,
+        "rating_count": 9466,
         "version": "10.26.1",
         "version_updated": "2026-08-26",
         "released": "2012-06-05",
@@ -615,9 +615,9 @@
       "auto": {
         "developer": "ORCA SCAN LIMITED",
         "rating": 4.7,
-        "rating_count": 1868,
-        "version": "12.7.3",
-        "version_updated": "2026-08-17",
+        "rating_count": 1866,
+        "version": "12.7.4",
+        "version_updated": "2026-09-01",
         "released": "2016-11-03",
         "size_mb": 18.0,
         "min_ios": "12.0",
@@ -632,12 +632,12 @@
       "price_display": "Personal plan free with 1 member, 100 items and 1 location; Business $24 per team per month, or $288 annually, per BoxHero’s pricing page on 2026-08-21",
       "auto": {
         "developer": "BGPworks",
-        "rating": 4.53,
-        "rating_count": 166,
-        "version": "3.57.0",
-        "version_updated": "2026-08-06",
+        "rating": 4.54,
+        "rating_count": 169,
+        "version": "3.58.0",
+        "version_updated": "2026-08-27",
         "released": "2019-05-23",
-        "size_mb": 85.5,
+        "size_mb": 85.6,
         "min_ios": "15.5",
         "ipad": true
       }
@@ -656,7 +656,7 @@
         "released": "2026-08-06",
         "size_mb": 2.2,
         "min_ios": "17.0",
-        "ipad": true
+        "ipad": false
       }
     },
     "carrot-weather": {
@@ -667,7 +667,7 @@
       "auto": {
         "developer": "Grailr LLC",
         "rating": 4.7,
-        "rating_count": 86824,
+        "rating_count": 86957,
         "version": "6.8.0",
         "version_updated": "2026-08-06",
         "released": "2015-03-19",
@@ -684,7 +684,7 @@
       "auto": {
         "developer": "Weather Underground, LLC",
         "rating": 3.91,
-        "rating_count": 31640,
+        "rating_count": 31658,
         "version": "6.21",
         "version_updated": "2025-06-30",
         "released": "2011-12-21",
@@ -701,11 +701,11 @@
       "auto": {
         "developer": "Electric Dream Machine LLC",
         "rating": 4.7,
-        "rating_count": 9457,
-        "version": "26.6.5",
-        "version_updated": "2026-08-18",
+        "rating_count": 9476,
+        "version": "26.6.7",
+        "version_updated": "2026-09-03",
         "released": "2016-01-12",
-        "size_mb": 332.9,
+        "size_mb": 320.5,
         "min_ios": "17.0",
         "ipad": true
       }
@@ -718,7 +718,7 @@
       "auto": {
         "developer": "Maple Media Apps, LLC",
         "rating": 4.76,
-        "rating_count": 18937,
+        "rating_count": 18938,
         "version": "9.6.81",
         "version_updated": "2026-06-18",
         "released": "2014-04-03",
@@ -735,7 +735,7 @@
       "auto": {
         "developer": "The Grizzly Labs",
         "rating": 4.9,
-        "rating_count": 1355445,
+        "rating_count": 1358433,
         "version": "8.13.1",
         "version_updated": "2026-07-22",
         "released": "2010-06-22",
@@ -752,7 +752,7 @@
       "auto": {
         "developer": "Adobe Inc.",
         "rating": 4.88,
-        "rating_count": 1582073,
+        "rating_count": 1585704,
         "version": "26.08.12",
         "version_updated": "2026-08-12",
         "released": "2017-05-31",
@@ -769,13 +769,13 @@
       "auto": {
         "developer": "INTSIG Information Co., Ltd",
         "rating": 4.85,
-        "rating_count": 1876269,
-        "version": "7.24.0",
-        "version_updated": "2026-08-18",
+        "rating_count": 1885440,
+        "version": "7.25.0",
+        "version_updated": "2026-08-31",
         "released": "2010-08-28",
-        "size_mb": 386.9,
+        "size_mb": 385.0,
         "min_ios": "13.0",
-        "ipad": true
+        "ipad": false
       }
     }
   },
